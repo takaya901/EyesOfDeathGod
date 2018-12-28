@@ -1,0 +1,38 @@
+<MonitoringManagement namespace="%MDS_NAMESPACE%" eventVersion="1" timestamp="2016-03-05T00:00:00.000Z" version="1.0">
+  <Accounts>
+    <Account moniker="%MDS_MONIKERNAME%" />
+  </Accounts>
+  <Management>
+    <Identity type="TenantRole" />
+    <AgentResourceUsage diskQuotaInMB="%MONITORING_DATA_DISKQUOTA%" />
+  </Management>
+  <Events>
+    <CounterSets storeType="Local" mdmMonitoringAccount="%MDM_ACCOUNT%">
+      <CounterSet eventName="CounterTable" mdmNamespace="%MONITORING_COMPONENT_NAME%">
+        <MdmDimensions>
+          <MdmDimension name="DeploymentID"><![CDATA[GetEnvironmentVariable("MONITORING_TENANT")]]></MdmDimension>
+          <MdmDimension name="RoleName"><![CDATA[GetEnvironmentVariable("MONITORING_ROLE")]]></MdmDimension>
+          <MdmDimension name="RoleInstanceID"><![CDATA[GetEnvironmentVariable("MONITORING_ROLE_INSTANCE")]]></MdmDimension>
+        </MdmDimensions>
+        <Counter>\Processor(_Total)\% Processor Time</Counter>
+        <Counter>\LogicalDisk(*)\% Disk Read Time</Counter>
+        <Counter>\LogicalDisk(*)\% Disk Write Time</Counter>        
+      </CounterSet>
+    </CounterSets>
+    <EtwProviders>
+      <EtwProvider name="PlatformEventSource" format="EventSource" storeType="CentralBond" duration="PT1M">
+        <Event id="101" eventName="TraceError" logToDefault="false" />
+        <Event id="102" eventName="TraceWarning" logToDefault="false" />
+        <Event id="103" eventName="TraceInformation" logToDefault="false" />
+        <Event id="201" eventName="TraceData" logToDefault="false" />
+        <Event id="202" eventName="TracePerformanceData" logToDefault="false" />
+        <Event id="301" eventName="TraceBehavior" logToDefault="false" />
+      </EtwProvider>
+    </EtwProviders>
+    <Extensions>
+      <Extension extensionName="MetricsExtension">
+        <CommandLine><![CDATA[start.bat -FrontEndUrl %MDM_URL%]]></CommandLine>
+      </Extension>
+    </Extensions>
+  </Events>
+</MonitoringManagement>
