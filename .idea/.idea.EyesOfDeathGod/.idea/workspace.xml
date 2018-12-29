@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dda8b18f-0a95-42da-9f48-24c95c706fed" name="Default Changelist" comment="" />
+    <list default="true" id="dda8b18f-0a95-42da-9f48-24c95c706fed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,32 +21,487 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="75" column="81" lean-forward="true" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="81" />
+            <state relative-caret-position="79">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
-                <marker date="1546026495229" expanded="true" signature="6:122" ph="..." />
-                <marker date="1546026495229" expanded="true" signature="166:5599" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="406:841" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="521:738" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="538:605" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="637:728" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="738:835" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="860:869" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="1008:3249" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="1194:1507" ph="/* Request parameters. A third optional parameter is &quot;details&quot;. ... */" />
-                <marker date="1546026495229" expanded="true" signature="1984:3243" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="2007:2184" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
-                <marker date="1546026495229" expanded="true" signature="2532:2618" ph="/* Display the JSON response. ... */" />
-                <marker date="1546026495229" expanded="true" signature="3377:3644" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="3490:3638" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="3764:5597" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="4101:5553" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="4135:4368" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="4440:5543" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="4482:5529" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="5633:5745" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="5788:5878" ph="{...}" />
-                <marker date="1546026495229" expanded="true" signature="5922:5948" ph="{...}" />
+                <marker date="1546042030250" expanded="true" signature="6:40" ph="..." />
+                <marker date="1546042030250" expanded="true" signature="112:1518" ph="{...}" />
+                <marker date="1546042030250" expanded="true" signature="290:534" ph="{...}" />
+                <marker date="1546042030250" expanded="true" signature="550:556" ph="{...}" />
+                <marker date="1546042030250" expanded="true" signature="591:1516" ph="{...}" />
+                <marker date="1546042030250" expanded="true" signature="626:1513" ph="{...}" />
+                <marker date="1546042030250" expanded="true" signature="972:1174" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/core/Size.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+              <folding>
+                <marker date="1535829685000" expanded="true" signature="39:6362" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="47:1896" ph="/* &lt;p&gt;template&lt;typename _Tp&gt; class CV_EXPORTS Size_ &lt;code&gt;&lt;/p&gt; ... */" />
+                <marker date="1535829685000" expanded="true" signature="1963:6360" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="2058:2144" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="2194:2215" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="2246:2317" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="2354:2398" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="2439:2728" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="2479:2618" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="2635:2718" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="2759:2814" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="2844:2910" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="2940:3005" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="3069:3480" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="3550:3791" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="3855:3926" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="3936:4294" ph="/* private static int URShift (int number, int bits) ... */" />
+                <marker date="1535829685000" expanded="false" signature="4304:6342" ph="Operators" />
+                <marker date="1535829685000" expanded="false" signature="4422:5094" ph="Binary" />
+                <marker date="1535829685000" expanded="true" signature="4509:4599" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="4672:4762" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="4841:4918" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="4997:5074" ph="{...}" />
+                <marker date="1535829685000" expanded="false" signature="5104:6322" ph="Comparison" />
+                <marker date="1535829685000" expanded="true" signature="5159:5608" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="5281:5338" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="5422:5480" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="5683:6177" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="5820:5877" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="5997:6055" ph="{...}" />
+                <marker date="1535829685000" expanded="true" signature="6252:6302" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/core/Mat.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="2478" column="8" selection-start-line="2478" selection-start-column="8" selection-end-line="2478" selection-end-column="8" />
+              <folding>
+                <marker date="1535830446000" expanded="false" signature="6:147" ph="..." />
+                <marker date="1535830446000" expanded="true" signature="173:133098" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="203:15055" ph="/* &lt;p&gt;OpenCV C++ n-dimensional dense array class&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="15101:133096" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="15166:15748" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="15315:15657" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="15381:15400" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="15472:15642" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="15666:15723" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="15782:16078" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="16088:16128" ph="/* C++: Mat::Mat() ... */" />
+                <marker date="1535830446000" expanded="true" signature="16138:16700" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="16722:16961" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="16971:17039" ph="/* C++: Mat::Mat(int rows, int cols, int type) ... */" />
+                <marker date="1535830446000" expanded="true" signature="17049:17927" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="17977:18235" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="18245:18304" ph="/* C++: Mat::Mat(Size size, int type) ... */" />
+                <marker date="1535830446000" expanded="true" signature="18314:19276" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="19317:19588" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="19598:19676" ph="/* C++: Mat::Mat(int rows, int cols, int type, Scalar s) ... */" />
+                <marker date="1535830446000" expanded="true" signature="19686:20796" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="20856:21163" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="21173:21242" ph="/* C++: Mat::Mat(Size size, int type, Scalar s) ... */" />
+                <marker date="1535830446000" expanded="true" signature="21252:22446" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="22497:22816" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="22826:22918" ph="/* C++: Mat::Mat(Mat m, Range rowRange, Range colRange = Range::all()) ... */" />
+                <marker date="1535830446000" expanded="true" signature="22928:24316" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="24375:24756" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="24776:26043" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="26086:26435" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="26445:26500" ph="/* C++: Mat::Mat(Mat m, Rect roi) ... */" />
+                <marker date="1535830446000" expanded="true" signature="26510:27622" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="27659:28034" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="28044:28138" ph="/* C++: Mat Mat::adjustROI(int dtop, int dbottom, int dleft, int dright) ... */" />
+                <marker date="1535830446000" expanded="true" signature="28148:30001" ph="/* &lt;p&gt;Adjusts a submatrix size and position within the parent matrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="30077:30434" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="30444:30514" ph="/* C++: void Mat::assignTo(Mat m, int type = -1) ... */" />
+                <marker date="1535830446000" expanded="true" signature="30524:30950" ph="/* &lt;p&gt;Provides a functional form of &lt;code&gt;convertTo&lt;/code&gt;.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="30997:31358" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="31368:31691" ph="/* &lt;p&gt;Provides a functional form of &lt;code&gt;convertTo&lt;/code&gt;.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="31728:32082" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="32092:32141" ph="/* C++: int Mat::channels() ... */" />
+                <marker date="1535830446000" expanded="true" signature="32151:32399" ph="/* &lt;p&gt;Returns the number of matrix channels.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="32430:32743" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="32753:32879" ph="/* C++: int Mat::checkVector(int elemChannels, int depth = -1, bool ... */" />
+                <marker date="1535830446000" expanded="true" signature="32965:33327" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="33389:33731" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="33782:34116" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="34126:34172" ph="/* C++: Mat Mat::clone() ... */" />
+                <marker date="1535830446000" expanded="true" signature="34182:34594" ph="/* &lt;p&gt;Creates a full copy of the array and the underlying data.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="34622:34945" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="34955:35004" ph="/* C++: Mat Mat::col(int x) ... */" />
+                <marker date="1535830446000" expanded="true" signature="35014:35514" ph="/* &lt;p&gt;Creates a matrix header for the specified matrix column.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="35545:35869" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="35879:35952" ph="/* C++: Mat Mat::colRange(int startcol, int endcol) ... */" />
+                <marker date="1535830446000" expanded="true" signature="35962:36465" ph="/* &lt;p&gt;Creates a matrix header for the specified column span.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="36520:36864" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="36874:36930" ph="/* C++: Mat Mat::colRange(Range r) ... */" />
+                <marker date="1535830446000" expanded="true" signature="36940:37377" ph="/* &lt;p&gt;Creates a matrix header for the specified column span.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="37415:37757" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="37767:37812" ph="/* C++: int Mat::dims() ... */" />
+                <marker date="1535830446000" expanded="true" signature="37840:38149" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="38159:38204" ph="/* C++: int Mat::cols() ... */" />
+                <marker date="1535830446000" expanded="true" signature="38232:38542" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="38552:38666" ph="/* C++: void Mat::convertTo(Mat&amp; m, int rtype, double alpha = 1, double beta ... */" />
+                <marker date="1535830446000" expanded="true" signature="38676:39569" ph="/* &lt;p&gt;Converts an array to another data type with optional scaling.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="39645:40042" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="40052:40887" ph="/* &lt;p&gt;Converts an array to another data type with optional scaling.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="40950:41331" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="41341:42137" ph="/* &lt;p&gt;Converts an array to another data type with optional scaling.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="42186:42568" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="42578:42632" ph="/* C++: void Mat::copyTo(Mat&amp; m) ... */" />
+                <marker date="1535830446000" expanded="true" signature="42642:43592" ph="/* &lt;p&gt;Copies the matrix to another one.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="43627:43998" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="44008:44072" ph="/* C++: void Mat::copyTo(Mat&amp; m, Mat mask) ... */" />
+                <marker date="1535830446000" expanded="true" signature="44082:45137" ph="/* &lt;p&gt;Copies the matrix to another one.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="45182:45641" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="45651:45727" ph="/* C++: void Mat::create(int rows, int cols, int type) ... */" />
+                <marker date="1535830446000" expanded="true" signature="45737:47334" ph="/* &lt;p&gt;Allocates new array data if needed.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="47392:47696" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="47706:47773" ph="/* C++: void Mat::create(Size size, int type) ... */" />
+                <marker date="1535830446000" expanded="true" signature="47783:49398" ph="/* &lt;p&gt;Allocates new array data if needed.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="49447:49764" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="49774:49825" ph="/* C++: Mat Mat::cross(Mat m) ... */" />
+                <marker date="1535830446000" expanded="true" signature="49835:50313" ph="/* &lt;p&gt;Computes a cross-product of two 3-element vectors.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="50346:50738" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="50748:50798" ph="/* C++: long Mat::dataAddr() ... */" />
+                <marker date="1535830446000" expanded="true" signature="50831:51136" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="51146:51192" ph="/* C++: int Mat::depth() ... */" />
+                <marker date="1535830446000" expanded="true" signature="51202:52302" ph="/* &lt;p&gt;Returns the depth of a matrix element.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="52330:52631" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="52641:52695" ph="/* C++: Mat Mat::diag(int d = 0) ... */" />
+                <marker date="1535830446000" expanded="true" signature="52705:53568" ph="/* &lt;p&gt;Extracts a diagonal from a matrix, or creates a diagonal matrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="53600:53920" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="53930:54339" ph="/* &lt;p&gt;Extracts a diagonal from a matrix, or creates a diagonal matrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="54366:54686" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="54696:54753" ph="/* C++: static Mat Mat::diag(Mat d) ... */" />
+                <marker date="1535830446000" expanded="true" signature="54763:55626" ph="/* &lt;p&gt;Extracts a diagonal from a matrix, or creates a diagonal matrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="55665:56017" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="56027:56079" ph="/* C++: double Mat::dot(Mat m) ... */" />
+                <marker date="1535830446000" expanded="true" signature="56089:56678" ph="/* &lt;p&gt;Computes a dot-product of two vectors.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="56712:57092" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="57102:57154" ph="/* C++: size_t Mat::elemSize() ... */" />
+                <marker date="1535830446000" expanded="true" signature="57164:57536" ph="/* &lt;p&gt;Returns the matrix element size in bytes.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="57568:57898" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="57908:57961" ph="/* C++: size_t Mat::elemSize1() ... */" />
+                <marker date="1535830446000" expanded="true" signature="57971:58411" ph="/* &lt;p&gt;Returns the size of each matrix element channel in bytes.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="58444:58775" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="58785:58832" ph="/* C++: bool Mat::empty() ... */" />
+                <marker date="1535830446000" expanded="true" signature="58842:59313" ph="/* &lt;p&gt;Returns &lt;code&gt;true&lt;/code&gt; if the array has no elements.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="59342:59648" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="59658:59737" ph="/* C++: static Mat Mat::eye(int rows, int cols, int type) ... */" />
+                <marker date="1535830446000" expanded="true" signature="59747:60408" ph="/* &lt;p&gt;Returns an identity matrix of the specified size and type.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="60469:60761" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="60771:60841" ph="/* C++: static Mat Mat::eye(Size size, int type) ... */" />
+                <marker date="1535830446000" expanded="true" signature="60851:61537" ph="/* &lt;p&gt;Returns an identity matrix of the specified size and type.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="61589:61894" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="61904:61970" ph="/* C++: Mat Mat::inv(int method = DECOMP_LU) ... */" />
+                <marker date="1535830446000" expanded="true" signature="61980:62895" ph="/* &lt;p&gt;Inverses a matrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="62931:63255" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="63265:63692" ph="/* &lt;p&gt;Inverses a matrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="63718:64033" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="64043:64097" ph="/* C++: bool Mat::isContinuous() ... */" />
+                <marker date="1535830446000" expanded="true" signature="64107:67985" ph="/* &lt;p&gt;Reports whether the matrix is continuous or not.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="68021:68334" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="68344:68397" ph="/* C++: bool Mat::isSubmatrix() ... */" />
+                <marker date="1535830446000" expanded="true" signature="68433:68745" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="68755:68831" ph="/* C++: void Mat::locateROI(Size wholeSize, Point ofs) ... */" />
+                <marker date="1535830446000" expanded="true" signature="68841:69786" ph="/* &lt;p&gt;Locates the matrix header within a parent matrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="69844:70518" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="70214:70336" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="70366:70455" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="70528:70595" ph="/* C++: Mat Mat::mul(Mat m, double scale = 1) ... */" />
+                <marker date="1535830446000" expanded="true" signature="70605:71292" ph="/* &lt;p&gt;Performs an element-wise multiplication or division of the two matrices.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="71337:71739" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="71749:72397" ph="/* &lt;p&gt;Performs an element-wise multiplication or division of the two matrices.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="72428:72822" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="72832:72912" ph="/* C++: static Mat Mat::ones(int rows, int cols, int type) ... */" />
+                <marker date="1535830446000" expanded="true" signature="72922:73795" ph="/* &lt;p&gt;Returns an array of all 1's of the specified size and type.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="73857:74150" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="74160:74231" ph="/* C++: static Mat Mat::ones(Size size, int type) ... */" />
+                <marker date="1535830446000" expanded="true" signature="74241:75143" ph="/* &lt;p&gt;Returns an array of all 1's of the specified size and type.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="75196:75501" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="75511:75567" ph="/* C++: void Mat::push_back(Mat m) ... */" />
+                <marker date="1535830446000" expanded="true" signature="75577:76073" ph="/* &lt;p&gt;Adds elements to the bottom of the matrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="76111:76473" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="76483:76532" ph="/* C++: void Mat::release() ... */" />
+                <marker date="1535830446000" expanded="true" signature="76542:77576" ph="/* &lt;p&gt;Decrements the reference counter and deallocates the matrix if needed.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="77607:77888" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="77898:77966" ph="/* C++: Mat Mat::reshape(int cn, int rows = 0) ... */" />
+                <marker date="1535830446000" expanded="true" signature="77976:79634" ph="/* &lt;p&gt;Changes the shape and/or the number of channels of a 2D matrix without ... */" />
+                <marker date="1535830446000" expanded="true" signature="79680:80011" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="80021:81581" ph="/* &lt;p&gt;Changes the shape and/or the number of channels of a 2D matrix without ... */" />
+                <marker date="1535830446000" expanded="true" signature="81617:81941" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="81951:82000" ph="/* C++: Mat Mat::row(int y) ... */" />
+                <marker date="1535830446000" expanded="true" signature="82010:83637" ph="/* &lt;p&gt;Creates a matrix header for the specified matrix row.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="83668:83983" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="83993:84066" ph="/* C++: Mat Mat::rowRange(int startrow, int endrow) ... */" />
+                <marker date="1535830446000" expanded="true" signature="84076:84567" ph="/* &lt;p&gt;Creates a matrix header for the specified row span.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="84622:84957" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="84967:85023" ph="/* C++: Mat Mat::rowRange(Range r) ... */" />
+                <marker date="1535830446000" expanded="true" signature="85033:85464" ph="/* &lt;p&gt;Creates a matrix header for the specified row span.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="85502:85835" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="85845:85890" ph="/* C++: int Mat::rows() ... */" />
+                <marker date="1535830446000" expanded="true" signature="85918:86218" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="86228:86287" ph="/* C++: Mat Mat::operator =(Scalar s) ... */" />
+                <marker date="1535830446000" expanded="true" signature="86324:86689" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="86699:86775" ph="/* C++: Mat Mat::setTo(Scalar value, Mat mask = Mat()) ... */" />
+                <marker date="1535830446000" expanded="true" signature="86785:87224" ph="/* &lt;p&gt;Sets all or some of the array elements to the specified value.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="87274:87743" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="87753:87826" ph="/* C++: Mat Mat::setTo(Mat value, Mat mask = Mat()) ... */" />
+                <marker date="1535830446000" expanded="true" signature="87836:88275" ph="/* &lt;p&gt;Sets all or some of the array elements to the specified value.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="88322:88818" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="88828:89102" ph="/* &lt;p&gt;Sets all or some of the array elements to the specified value.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="89139:89547" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="89557:89603" ph="/* C++: Size Mat::size() ... */" />
+                <marker date="1535830446000" expanded="true" signature="89613:89930" ph="/* &lt;p&gt;Returns a matrix size.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="89958:90459" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="90132:90235" ph="/* Size retVal = new Size(opencv_core_Mat_n_1size(nativeObj)); ... */" />
+                <marker date="1535830446000" expanded="true" signature="90469:90527" ph="/* C++: size_t Mat::step1(int i = 0) ... */" />
+                <marker date="1535830446000" expanded="true" signature="90537:90866" ph="/* &lt;p&gt;Returns a normalized step.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="90900:91209" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="91219:91529" ph="/* &lt;p&gt;Returns a normalized step.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="91558:91863" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="91873:91985" ph="/* C++: Mat Mat::operator()(int rowStart, int rowEnd, int colStart, int ... */" />
+                <marker date="1535830446000" expanded="true" signature="91995:92705" ph="/* &lt;p&gt;Extracts a rectangular submatrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="92784:93139" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="93149:93230" ph="/* C++: Mat Mat::operator()(Range rowRange, Range colRange) ... */" />
+                <marker date="1535830446000" expanded="true" signature="93240:94160" ph="/* &lt;p&gt;Extracts a rectangular submatrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="94219:94598" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="94608:94667" ph="/* C++: Mat Mat::operator()(Rect roi) ... */" />
+                <marker date="1535830446000" expanded="true" signature="94677:95335" ph="/* &lt;p&gt;Extracts a rectangular submatrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="95372:95724" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="95734:95776" ph="/* C++: Mat Mat::t() ... */" />
+                <marker date="1535830446000" expanded="true" signature="95786:96402" ph="/* &lt;p&gt;Transposes a matrix.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="96426:96736" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="96746:96795" ph="/* C++: size_t Mat::total() ... */" />
+                <marker date="1535830446000" expanded="true" signature="96805:97108" ph="/* &lt;p&gt;Returns the total number of array elements.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="97137:97439" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="97449:97494" ph="/* C++: int Mat::type() ... */" />
+                <marker date="1535830446000" expanded="true" signature="97504:97887" ph="/* &lt;p&gt;Returns the type of a matrix element.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="97914:98214" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="98224:98305" ph="/* C++: static Mat Mat::zeros(int rows, int cols, int type) ... */" />
+                <marker date="1535830446000" expanded="true" signature="98315:99122" ph="/* &lt;p&gt;Returns a zero array of the specified size and type.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="99185:99478" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="99488:99560" ph="/* C++: static Mat Mat::zeros(Size size, int type) ... */" />
+                <marker date="1535830446000" expanded="true" signature="99570:100406" ph="/* &lt;p&gt;Returns a zero array of the specified size and type.&lt;/p&gt; ... */" />
+                <marker date="1535830446000" expanded="true" signature="100460:100766" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="100830:101336" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="101367:101652" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="101717:102374" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="102431:103236" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="103019:103114" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="103291:104096" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="103879:103974" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="104153:104995" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="104778:104873" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="105051:105891" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="105674:105769" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="105971:106862" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="106623:106740" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="106919:107759" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="107542:107637" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="107816:108658" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="108441:108536" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="108713:109518" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="109301:109396" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="109575:110380" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="110163:110258" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="110438:111243" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="111026:111121" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="111291:111779" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="111633:111677" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="111809:112013" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="112042:112246" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="112289:112527" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="114810:114914" ph="/* C++: int Mat::checkVector(int elemChannels, int depth = -1, bool ... */" />
+                <marker date="1535830446000" expanded="true" signature="116114:116206" ph="/* C++: void Mat::convertTo(Mat&amp; m, int rtype, double alpha = 1, double beta ... */" />
+                <marker date="1535830446000" expanded="false" signature="127242:133079" ph="Operators" />
+                <marker date="1535830446000" expanded="false" signature="127391:127901" ph="Unary" />
+                <marker date="1535830446000" expanded="false" signature="127414:127647" ph="-" />
+                <marker date="1535830446000" expanded="true" signature="127432:127458" ph="/* Negation. ... */" />
+                <marker date="1535830446000" expanded="true" signature="127503:127628" ph="{...}" />
+                <marker date="1535830446000" expanded="false" signature="127657:127881" ph="~" />
+                <marker date="1535830446000" expanded="true" signature="127676:127705" ph="/* Bitwise not. ... */" />
+                <marker date="1535830446000" expanded="true" signature="127750:127861" ph="{...}" />
+                <marker date="1535830446000" expanded="false" signature="127912:133059" ph="Binary" />
+                <marker date="1535830446000" expanded="false" signature="127936:128524" ph="+" />
+                <marker date="1535830446000" expanded="true" signature="127954:128023" ph="/* Addition. ... */" />
+                <marker date="1535830446000" expanded="true" signature="128075:128181" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="128237:128343" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="128399:128505" ph="{...}" />
+                <marker date="1535830446000" expanded="false" signature="128534:129234" ph="-" />
+                <marker date="1535830446000" expanded="true" signature="128552:128624" ph="/* Subtraction. ... */" />
+                <marker date="1535830446000" expanded="true" signature="128676:128787" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="128843:128954" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="129010:129215" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="129114:129183" ph="{...}" />
+                <marker date="1535830446000" expanded="false" signature="129244:129912" ph="*" />
+                <marker date="1535830446000" expanded="true" signature="129262:129304" ph="/* Matrix multiplication. ... */" />
+                <marker date="1535830446000" expanded="true" signature="129356:129481" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="129491:129534" ph="/* Scaling. ... */" />
+                <marker date="1535830446000" expanded="true" signature="129589:129713" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="129769:129893" ph="{...}" />
+                <marker date="1535830446000" expanded="false" signature="129922:130682" ph="/" />
+                <marker date="1535830446000" expanded="true" signature="129940:130011" ph="/* Per-element multiplication and division. ... */" />
+                <marker date="1535830446000" expanded="true" signature="130063:130172" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="130228:130444" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="130345:130412" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="130454:130486" ph="/* Scaling. ... */" />
+                <marker date="1535830446000" expanded="true" signature="130541:130663" ph="{...}" />
+                <marker date="1535830446000" expanded="false" signature="130692:131469" ph="&amp;" />
+                <marker date="1535830446000" expanded="true" signature="130710:130756" ph="/* Bitwise and. ... */" />
+                <marker date="1535830446000" expanded="true" signature="130808:130922" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="130978:131186" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="131082:131154" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="131242:131450" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="131346:131418" ph="{...}" />
+                <marker date="1535830446000" expanded="false" signature="131479:132252" ph="|" />
+                <marker date="1535830446000" expanded="true" signature="131497:131542" ph="/* Bitwise or. ... */" />
+                <marker date="1535830446000" expanded="true" signature="131594:131707" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="131763:131970" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="131867:131938" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="132026:132233" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="132130:132201" ph="{...}" />
+                <marker date="1535830446000" expanded="false" signature="132262:133039" ph="^" />
+                <marker date="1535830446000" expanded="true" signature="132280:132326" ph="/* Bitwise xor. ... */" />
+                <marker date="1535830446000" expanded="true" signature="132378:132492" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="132548:132756" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="132652:132724" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="132812:133020" ph="{...}" />
+                <marker date="1535830446000" expanded="true" signature="132916:132988" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/MainModules/objdetect/FaceDetectionExample/FaceDetectionWebCamTextureExample.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="949">
+              <caret line="187" column="60" selection-start-line="187" selection-start-column="55" selection-end-line="187" selection-end-column="60" />
+              <folding>
+                <marker date="1535829869000" expanded="false" signature="6:193" ph="..." />
+                <marker date="1535829869000" expanded="true" signature="226:10276" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="233:493" ph="/// Face Detection WebCamTexture Example ... " />
+                <marker date="1535829869000" expanded="true" signature="618:10274" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="633:695" ph="/// The gray mat. ... " />
+                <marker date="1535829869000" expanded="true" signature="726:787" ph="/// The texture. ... " />
+                <marker date="1535829869000" expanded="true" signature="824:885" ph="/// The cascade. ... " />
+                <marker date="1535829869000" expanded="true" signature="930:989" ph="/// The faces. ... " />
+                <marker date="1535829869000" expanded="true" signature="1024:1106" ph="/// The webcam texture to mat helper. ... " />
+                <marker date="1535829869000" expanded="true" signature="1175:1240" ph="/// The FPS monitor. ... " />
+                <marker date="1535829869000" expanded="true" signature="1554:3813" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="2531:2664" ph="/* cascade = new CascadeClassifier (); ... */" />
+                <marker date="1535829869000" expanded="true" signature="2731:2898" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="2978:3328" ph="/* Set the requestedFPS parameter to avoid the problem of the WebCamTexture image becoming low light on some Andr ... */" />
+                <marker date="1535829869000" expanded="true" signature="3823:3931" ph="/// Raises the web cam texture to mat helper initialized event. ... " />
+                <marker date="1535829869000" expanded="true" signature="3992:5539" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="4644:4900" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="5189:5309" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="5549:5654" ph="/// Raises the web cam texture to mat helper disposed event. ... " />
+                <marker date="1535829869000" expanded="true" signature="5712:6056" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="5889:5980" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="6066:6233" ph="/// Raises the web cam texture to mat helper error occurred event. ... " />
+                <marker date="1535829869000" expanded="true" signature="6340:6440" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="6507:7962" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="6623:7952" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="7275:7586" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="7972:8046" ph="/// Raises the destroy event. ... " />
+                <marker date="1535829869000" expanded="true" signature="8072:8438" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="8448:8532" ph="/// Raises the back button click event. ... " />
+                <marker date="1535829869000" expanded="true" signature="8573:8801" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="8811:8895" ph="/// Raises the play button click event. ... " />
+                <marker date="1535829869000" expanded="true" signature="8936:9002" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="9012:9097" ph="/// Raises the pause button click event. ... " />
+                <marker date="1535829869000" expanded="true" signature="9139:9206" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="9216:9300" ph="/// Raises the stop button click event. ... " />
+                <marker date="1535829869000" expanded="true" signature="9341:9407" ph="{...}" />
+                <marker date="1535829869000" expanded="true" signature="9417:9510" ph="/// Raises the change camera button click event. ... " />
+                <marker date="1535829869000" expanded="true" signature="9559:10268" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <marker date="1546040115137" expanded="true" signature="6:142" ph="..." />
+                <marker date="1546040115137" expanded="true" signature="187:3432" ph="{...}" />
+                <marker date="1546040115137" expanded="true" signature="503:1202" ph="{...}" />
+                <marker date="1546040115137" expanded="true" signature="510:1196" ph="/* _printer = GetComponent&lt;Printer&gt;(); ... */" />
+                <marker date="1546040115137" expanded="true" signature="1334:3035" ph="{...}" />
+                <marker date="1546040115137" expanded="true" signature="2039:3029" ph="{...}" />
+                <marker date="1546040115137" expanded="true" signature="2062:2239" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
+                <marker date="1546040115137" expanded="true" signature="2571:2623" ph="/* Display the JSON response. ... */" />
+                <marker date="1546040115137" expanded="true" signature="3163:3430" ph="{...}" />
+                <marker date="1546040115137" expanded="true" signature="3276:3424" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Printer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <marker date="1546039286496" expanded="true" signature="6:159" ph="..." />
+                <marker date="1546039286496" expanded="true" signature="198:1317" ph="{...}" />
+                <marker date="1546039286496" expanded="true" signature="201:312" ph="/* WebCamTextureToMatHelper _toMatHelper; ... */" />
+                <marker date="1546039286496" expanded="true" signature="447:928" ph="{...}" />
+                <marker date="1546039286496" expanded="true" signature="603:925" ph="/* Img = imread(&quot;/Users/takaya/Downloads/c638d75b.jpg&quot;); ... */" />
+                <marker date="1546039286496" expanded="true" signature="947:1315" ph="{...}" />
+                <marker date="1546039286496" expanded="true" signature="951:1312" ph="/* if (_detector.Face == null) { ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ToMatHelperManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+              <folding>
+                <marker date="1546041453005" expanded="true" signature="6:69" ph="..." />
+                <marker date="1546041453005" expanded="true" signature="71:168" ph="/// WebCamTextureToMatHelperの初期化・破棄を行う． ... " />
+                <marker date="1546041453005" expanded="true" signature="216:2882" ph="{...}" />
+                <marker date="1546041453005" expanded="true" signature="390:602" ph="{...}" />
+                <marker date="1546041453005" expanded="true" signature="621:868" ph="{...}" />
+                <marker date="1546041453005" expanded="true" signature="925:2394" ph="{...}" />
+                <marker date="1546041453005" expanded="true" signature="1395:1636" ph="{...}" />
+                <marker date="1546041453005" expanded="true" signature="1916:2014" ph="{...}" />
+                <marker date="1546041453005" expanded="true" signature="2104:2191" ph="/* Quadを画面いっぱいにリサイズ ... */" />
+                <marker date="1546041453005" expanded="true" signature="2448:2620" ph="{...}" />
+                <marker date="1546041453005" expanded="true" signature="2543:2614" ph="{...}" />
+                <marker date="1546041453005" expanded="true" signature="2727:2810" ph="{...}" />
+                <marker date="1546041453005" expanded="true" signature="2836:2880" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Face.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding>
+                <marker date="1546027119993" expanded="true" signature="47:150" ph="{...}" />
+                <marker date="1546027119993" expanded="true" signature="193:271" ph="{...}" />
+                <marker date="1546027119993" expanded="true" signature="315:338" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -55,14 +518,35 @@
       <replace>\&quot;</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/WebCamTextureToMatHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/MainModules/objdetect/FaceDetectionExample/AsynchronousFaceDetectionWebCamTextureExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/31716813-CEF6-4E99-B258-F55AFAF157BB/00/4b0709d3/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/ContribModules/face/FaceRecognizerExample/FaceRecognizerExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/MainModules/objdetect/FaceDetectionExample/FaceDetectionWebCamTextureExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/objdetect/CascadeClassifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Face.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/core/Size.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/unity/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/core/Mat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ToMatHelperManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/imgproc/Imgproc.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Printer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/mcs.rsp" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Face.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Printer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ToMatHelperManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs" />
       </list>
     </option>
@@ -76,6 +560,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -135,10 +620,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="22238">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="22238" />
       <method v="2" />
     </configuration>
   </component>
@@ -162,12 +647,12 @@
       <workItem from="1546020812212" duration="71000" />
       <workItem from="1546020948641" duration="112000" />
       <workItem from="1546021135431" duration="82000" />
-      <workItem from="1546021557032" duration="4333000" />
+      <workItem from="1546021557032" duration="16838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7773000" />
+    <option name="totallyTimeSpent" value="20278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -182,8 +667,8 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15236051" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876237" visible="true" weight="0.15236051" />
+      <window_info id="Structure" order="1" sideWeight="0.50123763" side_tool="true" visible="true" weight="0.15236051" />
       <window_info id="Captures" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -191,7 +676,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -243,34 +728,950 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/unity/Utils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="330" selection-start-line="330" selection-end-line="330" />
+          <folding>
+            <marker date="1535829821000" expanded="false" signature="6:158" ph="..." />
+            <marker date="1535829821000" expanded="true" signature="184:52446" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="216:52444" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="231:371" ph="/* Returns this &quot;OpenCV for Unity&quot; version number. ... */" />
+            <marker date="1535829821000" expanded="true" signature="414:462" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="472:989" ph="/* Copies OpenCV Mat data to Pixel Data IntPtr. ... */" />
+            <marker date="1535829821000" expanded="true" signature="1053:1577" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="1587:2114" ph="/* Copies Pixel Data IntPtr to OpenCV Mat data. ... */" />
+            <marker date="1535829821000" expanded="true" signature="2176:2701" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="2711:3237" ph="/* Copies OpenCV Mat data to Pixel Data Array. ... */" />
+            <marker date="1535829821000" expanded="true" signature="3305:3955" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="3965:4502" ph="/* Copies Pixel Data Array to OpenCV Mat data. ... */" />
+            <marker date="1535829821000" expanded="true" signature="4568:5230" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="5240:6672" ph="/* Converts OpenCV Mat to Unity Texture2D. ... */" />
+            <marker date="1535829821000" expanded="true" signature="6868:7003" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="7013:8888" ph="/* Converts OpenCV Mat to Unity Texture2D. ... */" />
+            <marker date="1535829821000" expanded="true" signature="9108:15734" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="9585:13966" ph="/* Core.flip (mat, mat, 0); ... */" />
+            <marker date="1535829821000" expanded="true" signature="14404:14831" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="14433:14504" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="14721:14792" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="14914:15274" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="15744:16873" ph="/* Fast converts OpenCV Mat to Unity Texture2D.(Unity5.3+) ... */" />
+            <marker date="1535829821000" expanded="true" signature="17073:18088" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="17538:17635" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="17659:17722" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="17927:17990" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="18098:19101" ph="/* Converts Unity Texture2D to OpenCV Mat. ... */" />
+            <marker date="1535829821000" expanded="true" signature="19210:23207" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="19679:21640" ph="/* byte[] data = new byte[mat.cols () * mat.rows () * mat.channels ()]; ... */" />
+            <marker date="1535829821000" expanded="true" signature="21655:22166" ph="/* ##if UNITY_PRO_LICENSE || ((UNITY_ANDROID || UNITY_IOS || UNITY_WEBGL) &amp;&amp; !UNITY_EDITOR) || UNITY_5 || UNITY_5_ ... */" />
+            <marker date="1535829821000" expanded="true" signature="22607:22809" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="22699:22770" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="23217:23951" ph="/* Fast converts Unity Texture2D to OpenCV Mat.(Unity5.1+) ... */" />
+            <marker date="1535829821000" expanded="true" signature="24064:24763" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="24601:24664" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="24773:25716" ph="/* Converts Unity WebCamTexture to OpenCV Mat. ... */" />
+            <marker date="1535829821000" expanded="true" signature="25837:25932" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="25942:27243" ph="/* Converts Unity WebCamTexture to OpenCV Mat. ... */" />
+            <marker date="1535829821000" expanded="true" signature="27388:32520" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="27873:31043" ph="/* byte[] data = new byte[mat.cols () * mat.rows () * mat.channels ()]; ... */" />
+            <marker date="1535829821000" expanded="true" signature="31945:32116" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="32530:32956" ph="/* Converts Texture to Texture2D. ... */" />
+            <marker date="1535829821000" expanded="true" signature="33041:34309" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="33547:33788" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="34319:34566" ph="/* Register Plugin on WebGL. ... */" />
+            <marker date="1535829821000" expanded="true" signature="34616:34812" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="34822:35446" ph="/* Copies Pixel Data IntPtr to Texture at render thread. ... */" />
+            <marker date="1535829821000" expanded="true" signature="35536:36186" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="36196:36829" ph="/* Copies Pixel Data Array to Texture at render thread. ... */" />
+            <marker date="1535829821000" expanded="true" signature="36922:37698" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="37708:38414" ph="/* Copies OpenCV Mat data to Texture at render thread. ... */" />
+            <marker date="1535829821000" expanded="true" signature="38495:39566" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="39107:39204" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="39576:40619" ph="/* Gets the readable path of a file in the &quot;StreamingAssets&quot; folder. ... */" />
+            <marker date="1535829821000" expanded="true" signature="40700:42418" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="42295:42343" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="42428:43819" ph="/* Gets the readable path of a file in the &quot;StreamingAssets&quot; folder by using coroutines. ... */" />
+            <marker date="1535829821000" expanded="true" signature="43975:47603" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="47038:47333" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="47645:47897" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="47908:48028" ph="/// if true, CvException is thrown instead of calling Debug.LogError (msg). ... " />
+            <marker date="1535829821000" expanded="true" signature="48170:48859" ph="/* Sets the debug mode. ... */" />
+            <marker date="1535829821000" expanded="true" signature="48945:49405" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="49094:49236" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="49645:49823" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="49694:49754" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="49899:50060" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="50135:50296" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="50387:50671" ph="{...}" />
+            <marker date="1535829821000" expanded="true" signature="50478:50636" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Face.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <marker date="1546027119993" expanded="true" signature="47:150" ph="{...}" />
+            <marker date="1546027119993" expanded="true" signature="193:271" ph="{...}" />
+            <marker date="1546027119993" expanded="true" signature="315:338" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/MainModules/objdetect/FaceDetectionExample/AsynchronousFaceDetectionWebCamTextureExample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1535829816000" expanded="false" signature="6:329" ph="..." />
+            <marker date="1535829816000" expanded="true" signature="362:34800" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="369:576" ph="/// Asynchronous Face Detection WebCamTexture Example ... " />
+            <marker date="1535829816000" expanded="true" signature="713:34798" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="728:790" ph="/// The gray mat. ... " />
+            <marker date="1535829816000" expanded="true" signature="821:882" ph="/// The texture. ... " />
+            <marker date="1535829816000" expanded="true" signature="919:1001" ph="/// The webcam texture to mat helper. ... " />
+            <marker date="1535829816000" expanded="true" signature="1070:1131" ph="/// The cascade. ... " />
+            <marker date="1535829816000" expanded="true" signature="1176:1265" ph="/// The lbpcascade_frontalface_xml_filepath. ... " />
+            <marker date="1535829816000" expanded="true" signature="1335:1429" ph="/// The haarcascade_frontalface_alt_xml_filepath. ... " />
+            <marker date="1535829816000" expanded="true" signature="1496:1569" ph="/// The rects where regions. ... " />
+            <marker date="1535829816000" expanded="true" signature="1613:1694" ph="/// The detected objects in regions. ... " />
+            <marker date="1535829816000" expanded="true" signature="1769:1837" ph="/// The result objects. ... " />
+            <marker date="1535829816000" expanded="true" signature="2141:2363" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="2159:2247" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="2264:2353" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="2436:2660" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="2454:2543" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="2560:2650" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="2751:2993" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="2769:2867" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="2884:2983" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="3088:3334" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="3106:3206" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="3223:3324" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="3344:3409" ph="/// The FPS monitor. ... " />
+            <marker date="1535829816000" expanded="true" signature="4024:4669" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="5789:7581" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="6010:6185" ph="/* parameters.minObjectSize = 96; ... */" />
+            <marker date="1535829816000" expanded="true" signature="6766:7116" ph="/* Set the requestedFPS parameter to avoid the problem of the WebCamTexture image becoming low light on some Andr ... */" />
+            <marker date="1535829816000" expanded="true" signature="7591:7698" ph="/// Raises the webcam texture to mat helper initialized event. ... " />
+            <marker date="1535829816000" expanded="true" signature="7759:9709" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="8436:8692" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="8993:9113" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="9486:9653" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="9719:9823" ph="/// Raises the webcam texture to mat helper disposed event. ... " />
+            <marker date="1535829816000" expanded="true" signature="9881:10589" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="10364:10455" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="10599:10765" ph="/// Raises the webcam texture to mat helper error occurred event. ... " />
+            <marker date="1535829816000" expanded="true" signature="10872:10972" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="11039:15426" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="11155:15416" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="11425:11552" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="11665:12274" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="12034:12255" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="12553:13852" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="12855:13077" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="13189:13779" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="13960:14181" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="14302:14567" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="14427:14549" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="14784:15060" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="15518:17055" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="15974:16102" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="16833:17045" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="17097:17191" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="17227:17951" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="17536:17710" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="18001:18396" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="18432:18679" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="18576:18629" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="18742:19101" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="18828:19053" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="19510:19955" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="19966:20040" ph="/// Raises the destroy event. ... " />
+            <marker date="1535829816000" expanded="true" signature="20066:20362" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="20372:20456" ph="/// Raises the back button click event. ... " />
+            <marker date="1535829816000" expanded="true" signature="20497:20725" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="20735:20819" ph="/// Raises the play button click event. ... " />
+            <marker date="1535829816000" expanded="true" signature="20860:20926" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="20936:21021" ph="/// Raises the pause button click event. ... " />
+            <marker date="1535829816000" expanded="true" signature="21063:21130" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="21140:21224" ph="/// Raises the stop button click event. ... " />
+            <marker date="1535829816000" expanded="true" signature="21265:21331" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="21341:21434" ph="/// Raises the change camera button click event. ... " />
+            <marker date="1535829816000" expanded="true" signature="21483:22192" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="22202:22234" ph="/* tracker ... */" />
+            <marker date="1535829816000" expanded="true" signature="22286:22771" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="22402:22761" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="22502:22551" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="22812:22903" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="22975:28894" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="23141:23212" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="23319:23404" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="23480:26683" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="24009:25465" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="24060:24278" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="24358:24574" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="24747:25447" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="24773:24968" ph="/* LOGD(&quot;DetectionBasedTracker::updateTrackedObjects: There is intersection between prevRect and detectedRect, r= ... */" />
+            <marker date="1535829816000" expanded="true" signature="25134:25425" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="25523:26474" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="25782:26456" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="26078:26434" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="26108:26318" ph="/* LOGD(&quot;DetectionBasedTracker::updateTrackedObjects: Found intersection between &quot; ... */" />
+            <marker date="1535829816000" expanded="true" signature="26829:27824" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="26903:27422" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="26904:27012" ph="/* add position ... */" />
+            <marker date="1535829816000" expanded="true" signature="27212:27339" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="27470:27676" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="27472:27576" ph="/* new object ... */" />
+            <marker date="1535829816000" expanded="true" signature="27940:28884" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="28340:28820" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="28362:28704" ph="/* int numpos = (int)it.lastPositions.Count; ... */" />
+            <marker date="1535829816000" expanded="true" signature="28956:33201" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="29023:29181" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="29285:29628" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="29735:29786" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="29959:30128" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="30414:30831" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="30496:30765" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="30998:32105" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="31082:31964" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="31285:31330" ph="/* c1=tl; ... */" />
+            <marker date="1535829816000" expanded="true" signature="31444:31486" ph="/* c2=br; ... */" />
+            <marker date="1535829816000" expanded="true" signature="32290:32329" ph="/* c1=tl; ... */" />
+            <marker date="1535829816000" expanded="true" signature="32431:32469" ph="/* c2=br; ... */" />
+            <marker date="1535829816000" expanded="true" signature="33236:33616" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="33259:33405" ph="/* public int minObjectSize; ... */" />
+            <marker date="1535829816000" expanded="true" signature="33657:34072" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="34110:34792" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="34385:34666" ph="{...}" />
+            <marker date="1535829816000" expanded="true" signature="34703:34782" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/ContribModules/face/FaceRecognizerExample/FaceRecognizerExample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <folding>
+            <marker date="1535829882000" expanded="false" signature="6:193" ph="..." />
+            <marker date="1535829882000" expanded="true" signature="226:6156" ph="{...}" />
+            <marker date="1535829882000" expanded="true" signature="233:475" ph="/// FaceRecognizer Example ... " />
+            <marker date="1535829882000" expanded="true" signature="530:6154" ph="{...}" />
+            <marker date="1535829882000" expanded="true" signature="844:1383" ph="{...}" />
+            <marker date="1535829882000" expanded="true" signature="2534:5337" ph="{...}" />
+            <marker date="1535829882000" expanded="true" signature="3077:3468" ph="/* foreach (Mat item in images) { ... */" />
+            <marker date="1535829882000" expanded="true" signature="5404:5429" ph="{...}" />
+            <marker date="1535829882000" expanded="true" signature="5439:5513" ph="/// Raises the destroy event. ... " />
+            <marker date="1535829882000" expanded="true" signature="5539:5785" ph="{...}" />
+            <marker date="1535829882000" expanded="true" signature="5795:5879" ph="/// Raises the back button click event. ... " />
+            <marker date="1535829882000" expanded="true" signature="5920:6148" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WebCamManager.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/imgproc/Imgproc.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="3122" selection-start-line="3122" selection-end-line="3122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/31716813-CEF6-4E99-B258-F55AFAF157BB/00/4b0709d3/NativeInputSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/WebCamTextureToMatHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1221">
+          <folding>
+            <marker date="1535830370000" expanded="false" signature="6:139" ph="..." />
+            <marker date="1535830370000" expanded="true" signature="172:33806" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="179:264" ph="/// WebcamTexture to mat helper. ... " />
+            <marker date="1535830370000" expanded="true" signature="322:33804" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="337:452" ph="/// Set the name of the camera device to use. (or device index number) ... " />
+            <marker date="1535830370000" expanded="true" signature="711:938" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="779:928" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="860:914" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="948:1021" ph="/// Set the width of camera. ... " />
+            <marker date="1535830370000" expanded="true" signature="1223:1479" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="1286:1469" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="1401:1455" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="1489:1563" ph="/// Set the height of camera. ... " />
+            <marker date="1535830370000" expanded="true" signature="1769:2027" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="1833:2017" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="1949:2003" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="2037:2129" ph="/// Set whether to use the front facing camera. ... " />
+            <marker date="1535830370000" expanded="true" signature="2378:2664" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="2449:2654" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="2533:2640" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="2674:2752" ph="/// Set the frame rate of camera. ... " />
+            <marker date="1535830370000" expanded="true" signature="2957:3382" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="3018:3372" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="3127:3358" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="3392:3500" ph="/// Sets whether to rotate camera frame 90 degrees. (clockwise) ... " />
+            <marker date="1535830370000" expanded="true" signature="3741:3958" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="3804:3948" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="3880:3934" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="3968:4048" ph="/// Determines if flips vertically. ... " />
+            <marker date="1535830370000" expanded="true" signature="4255:4352" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="4362:4442" ph="/// Determines if flips horizontal. ... " />
+            <marker date="1535830370000" expanded="true" signature="4655:4756" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="4766:4880" ph="/// The number of frames before the initialization process times out. ... " />
+            <marker date="1535830370000" expanded="true" signature="5132:5278" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="5288:5400" ph="/// UnityEvent that is triggered when this instance is initialized. ... " />
+            <marker date="1535830370000" expanded="true" signature="5451:5560" ph="/// UnityEvent that is triggered when this instance is disposed. ... " />
+            <marker date="1535830370000" expanded="true" signature="5608:5723" ph="/// UnityEvent that is triggered when this instance is error Occurred. ... " />
+            <marker date="1535830370000" expanded="true" signature="5781:5855" ph="/// The active WebcamTexture. ... " />
+            <marker date="1535830370000" expanded="true" signature="5912:5985" ph="/// The active WebcamDevice. ... " />
+            <marker date="1535830370000" expanded="true" signature="6040:6103" ph="/// The frame mat. ... " />
+            <marker date="1535830370000" expanded="true" signature="6145:6215" ph="/// The rotated frame mat ... " />
+            <marker date="1535830370000" expanded="true" signature="6264:6331" ph="/// The buffer colors. ... " />
+            <marker date="1535830370000" expanded="true" signature="6377:6500" ph="/// Indicates whether this instance is waiting for initialization to complete. ... " />
+            <marker date="1535830370000" expanded="true" signature="6556:6658" ph="/// Indicates whether this instance has been initialized. ... " />
+            <marker date="1535830370000" expanded="true" signature="6712:6790" ph="/// The initialization coroutine. ... " />
+            <marker date="1535830370000" expanded="true" signature="6845:6924" ph="/// The orientation of the screen. ... " />
+            <marker date="1535830370000" expanded="true" signature="6989:7062" ph="/// The width of the screen. ... " />
+            <marker date="1535830370000" expanded="true" signature="7107:7181" ph="/// The height of the screen. ... " />
+            <marker date="1535830370000" expanded="true" signature="7284:7395" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="7506:7539" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="7585:7949" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="8034:10024" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="8074:10014" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="8317:9877" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="8453:8562" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="8612:8735" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="10034:10108" ph="/// Raises the destroy event. ... " />
+            <marker date="1535830370000" expanded="true" signature="10152:10196" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="10206:10281" ph="/// Initializes this instance. ... " />
+            <marker date="1535830370000" expanded="true" signature="10323:10854" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="10365:10457" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="10864:11073" ph="/// Initializes this instance. ... " />
+            <marker date="1535830370000" expanded="true" signature="11154:11781" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="11196:11288" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="11791:12172" ph="/// Initializes this instance. ... " />
+            <marker date="1535830370000" expanded="true" signature="12296:13025" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="12338:12430" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="13035:13608" ph="/// Initializes this instance. ... " />
+            <marker date="1535830370000" expanded="true" signature="13800:14628" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="13842:13934" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="14638:14726" ph="/// Initializes this instance by coroutine. ... " />
+            <marker date="1535830370000" expanded="true" signature="14779:22192" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="14819:14954" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="15086:16726" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="15219:15811" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="15327:15793" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="15460:15603" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="15924:16561" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="16019:16539" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="16151:16302" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="16767:17593" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="16951:17579" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="17073:17561" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="17197:17340" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="17634:18359" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="17690:18109" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="17796:17931" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="18528:21874" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="18586:18670" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="19218:21758" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="21903:22182" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="22202:22411" ph="/// Indicates whether this instance has been initialized. ... " />
+            <marker date="1535830370000" expanded="true" signature="22456:22508" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="22518:22585" ph="/// Starts the camera. ... " />
+            <marker date="1535830370000" expanded="true" signature="22621:22709" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="22719:22793" ph="/// Pauses the active camera. ... " />
+            <marker date="1535830370000" expanded="true" signature="22830:22919" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="22929:23002" ph="/// Stops the active camera. ... " />
+            <marker date="1535830370000" expanded="true" signature="23038:23126" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="23136:23343" ph="/// Indicates whether the active camera is currently playing. ... " />
+            <marker date="1535830370000" expanded="true" signature="23384:23470" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="23480:23709" ph="/// Indicates whether the active camera device is currently front facng. ... " />
+            <marker date="1535830370000" expanded="true" signature="23754:23843" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="23853:24002" ph="/// Returns the active camera device name. ... " />
+            <marker date="1535830370000" expanded="true" signature="24049:24133" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="24143:24280" ph="/// Returns the active camera width. ... " />
+            <marker date="1535830370000" expanded="true" signature="24319:24483" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="24493:24632" ph="/// Returns the active camera height. ... " />
+            <marker date="1535830370000" expanded="true" signature="24672:24836" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="24846:24991" ph="/// Returns the active camera framerate. ... " />
+            <marker date="1535830370000" expanded="true" signature="25030:25117" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="25127:25266" ph="/// Returns the active WebcamTexture. ... " />
+            <marker date="1535830370000" expanded="true" signature="25323:25398" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="25408:25545" ph="/// Returns the active WebcamDevice. ... " />
+            <marker date="1535830370000" expanded="true" signature="25600:25653" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="25663:25806" ph="/// Returns the camera to world matrix. ... " />
+            <marker date="1535830370000" expanded="true" signature="25865:25937" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="25947:26087" ph="/// Returns the projection matrix matrix. ... " />
+            <marker date="1535830370000" expanded="true" signature="26143:26212" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="26222:26441" ph="/// Indicates whether the video buffer of the frame has been updated. ... " />
+            <marker date="1535830370000" expanded="true" signature="26491:26934" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="26944:27143" ph="/// Gets the mat of the current frame. ... " />
+            <marker date="1535830370000" expanded="true" signature="27180:29391" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="27249:27343" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="29154:29308" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="29401:29507" ph="/// Flips the mat. ... " />
+            <marker date="1535830370000" expanded="true" signature="29596:31502" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="29834:30308" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="29895:29949" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="29999:30053" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="30115:30179" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="30230:30294" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="30377:30430" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="30481:30534" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="30596:30958" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="30644:30697" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="30722:30786" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="30811:30865" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="30891:30944" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="31008:31370" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="31056:31109" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="31134:31188" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="31213:31277" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="31303:31356" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="31429:31492" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="31512:31634" ph="/// Gets the buffer colors. ... " />
+            <marker date="1535830370000" expanded="true" signature="31686:31733" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="31743:31814" ph="/// Cancel Init Coroutine. ... " />
+            <marker date="1535830370000" expanded="true" signature="31868:32085" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="31918:32075" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="32095:32169" ph="/// To release the resources. ... " />
+            <marker date="1535830370000" expanded="true" signature="32220:32757" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="32339:32486" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="32521:32606" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="32648:32747" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="32767:33393" ph="/// Releases all resource used by the &lt;see cref=&quot;WebCamTextureToMatHelper&quot;/&gt; object. ... " />
+            <marker date="1535830370000" expanded="true" signature="33432:33798" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="33538:33630" ph="{...}" />
+            <marker date="1535830370000" expanded="true" signature="33653:33788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/core/Size.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <folding>
+            <marker date="1535829685000" expanded="true" signature="39:6362" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="47:1896" ph="/* &lt;p&gt;template&lt;typename _Tp&gt; class CV_EXPORTS Size_ &lt;code&gt;&lt;/p&gt; ... */" />
+            <marker date="1535829685000" expanded="true" signature="1963:6360" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="2058:2144" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="2194:2215" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="2246:2317" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="2354:2398" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="2439:2728" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="2479:2618" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="2635:2718" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="2759:2814" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="2844:2910" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="2940:3005" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="3069:3480" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="3550:3791" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="3855:3926" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="3936:4294" ph="/* private static int URShift (int number, int bits) ... */" />
+            <marker date="1535829685000" expanded="false" signature="4304:6342" ph="Operators" />
+            <marker date="1535829685000" expanded="false" signature="4422:5094" ph="Binary" />
+            <marker date="1535829685000" expanded="true" signature="4509:4599" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="4672:4762" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="4841:4918" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="4997:5074" ph="{...}" />
+            <marker date="1535829685000" expanded="false" signature="5104:6322" ph="Comparison" />
+            <marker date="1535829685000" expanded="true" signature="5159:5608" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="5281:5338" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="5422:5480" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="5683:6177" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="5820:5877" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="5997:6055" ph="{...}" />
+            <marker date="1535829685000" expanded="true" signature="6252:6302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/objdetect/CascadeClassifier.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+          <folding>
+            <marker date="1535830309000" expanded="false" signature="8:87" ph="..." />
+            <marker date="1535830309000" expanded="true" signature="113:32229" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="120:184" ph="/* C++: class CascadeClassifier ... */" />
+            <marker date="1535830309000" expanded="true" signature="245:32227" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="309:676" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="445:595" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="462:465" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="488:593" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="604:633" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="969:1125" ph="/* C++:   cv::CascadeClassifier::CascadeClassifier(String filename) ... */" />
+            <marker date="1535830309000" expanded="true" signature="1176:1469" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="1480:1613" ph="/* C++:   cv::CascadeClassifier::CascadeClassifier() ... */" />
+            <marker date="1535830309000" expanded="true" signature="1649:1934" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="1945:2090" ph="/* C++:  Size cv::CascadeClassifier::getOriginalWindowSize() ... */" />
+            <marker date="1535830309000" expanded="true" signature="2135:2540" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="2551:2732" ph="/* C++: static bool cv::CascadeClassifier::convert(String oldcascade, String newcascade) ... */" />
+            <marker date="1535830309000" expanded="true" signature="2806:3113" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="3124:3237" ph="/* C++:  bool cv::CascadeClassifier::empty() ... */" />
+            <marker date="1535830309000" expanded="true" signature="3266:3590" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="3601:3740" ph="/* C++:  bool cv::CascadeClassifier::isOldFormatCascade() ... */" />
+            <marker date="1535830309000" expanded="true" signature="3782:4119" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="4130:4264" ph="/* C++:  bool cv::CascadeClassifier::load(String filename) ... */" />
+            <marker date="1535830309000" expanded="true" signature="4307:4640" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="4651:4792" ph="/* C++:  bool cv::CascadeClassifier::read(FileNode node) ... */" />
+            <marker date="1535830309000" expanded="true" signature="4803:4933" ph="/* C++:  int cv::CascadeClassifier::getFeatureType() ... */" />
+            <marker date="1535830309000" expanded="true" signature="4970:5299" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="5310:5651" ph="/* C++:  void cv::CascadeClassifier::detectMultiScale(Mat image, vector_Rect&amp; objects, double scaleFactor = 1.1,  ... */" />
+            <marker date="1535830309000" expanded="true" signature="5796:6384" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="6630:7187" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="7410:7936" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="8141:8660" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="8833:9338" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="9478:9970" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="9981:10365" ph="/* C++:  void cv::CascadeClassifier::detectMultiScale(Mat image, vector_Rect&amp; objects, vector_int&amp; numDetections, ... */" />
+            <marker date="1535830309000" expanded="true" signature="10535:11273" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="11560:12267" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="12531:13207" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="13453:14122" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="14336:14991" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="15172:15814" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="15825:16303" ph="/* C++:  void cv::CascadeClassifier::detectMultiScale(Mat image, vector_Rect&amp; objects, vector_int&amp; rejectLevels,  ... */" />
+            <marker date="1535830309000" expanded="true" signature="16523:17420" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="17768:18645" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="18970:19816" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="20118:20933" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="21217:22025" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="22277:23071" ph="{...}" />
+            <marker date="1535830309000" expanded="true" signature="23290:24071" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/core/Mat.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="2478" column="8" selection-start-line="2478" selection-start-column="8" selection-end-line="2478" selection-end-column="8" />
+          <folding>
+            <marker date="1535830446000" expanded="false" signature="6:147" ph="..." />
+            <marker date="1535830446000" expanded="true" signature="173:133098" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="203:15055" ph="/* &lt;p&gt;OpenCV C++ n-dimensional dense array class&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="15101:133096" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="15166:15748" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="15315:15657" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="15381:15400" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="15472:15642" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="15666:15723" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="15782:16078" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="16088:16128" ph="/* C++: Mat::Mat() ... */" />
+            <marker date="1535830446000" expanded="true" signature="16138:16700" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="16722:16961" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="16971:17039" ph="/* C++: Mat::Mat(int rows, int cols, int type) ... */" />
+            <marker date="1535830446000" expanded="true" signature="17049:17927" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="17977:18235" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="18245:18304" ph="/* C++: Mat::Mat(Size size, int type) ... */" />
+            <marker date="1535830446000" expanded="true" signature="18314:19276" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="19317:19588" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="19598:19676" ph="/* C++: Mat::Mat(int rows, int cols, int type, Scalar s) ... */" />
+            <marker date="1535830446000" expanded="true" signature="19686:20796" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="20856:21163" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="21173:21242" ph="/* C++: Mat::Mat(Size size, int type, Scalar s) ... */" />
+            <marker date="1535830446000" expanded="true" signature="21252:22446" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="22497:22816" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="22826:22918" ph="/* C++: Mat::Mat(Mat m, Range rowRange, Range colRange = Range::all()) ... */" />
+            <marker date="1535830446000" expanded="true" signature="22928:24316" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="24375:24756" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="24776:26043" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="26086:26435" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="26445:26500" ph="/* C++: Mat::Mat(Mat m, Rect roi) ... */" />
+            <marker date="1535830446000" expanded="true" signature="26510:27622" ph="/* &lt;p&gt;Various Mat constructors&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="27659:28034" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="28044:28138" ph="/* C++: Mat Mat::adjustROI(int dtop, int dbottom, int dleft, int dright) ... */" />
+            <marker date="1535830446000" expanded="true" signature="28148:30001" ph="/* &lt;p&gt;Adjusts a submatrix size and position within the parent matrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="30077:30434" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="30444:30514" ph="/* C++: void Mat::assignTo(Mat m, int type = -1) ... */" />
+            <marker date="1535830446000" expanded="true" signature="30524:30950" ph="/* &lt;p&gt;Provides a functional form of &lt;code&gt;convertTo&lt;/code&gt;.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="30997:31358" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="31368:31691" ph="/* &lt;p&gt;Provides a functional form of &lt;code&gt;convertTo&lt;/code&gt;.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="31728:32082" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="32092:32141" ph="/* C++: int Mat::channels() ... */" />
+            <marker date="1535830446000" expanded="true" signature="32151:32399" ph="/* &lt;p&gt;Returns the number of matrix channels.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="32430:32743" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="32753:32879" ph="/* C++: int Mat::checkVector(int elemChannels, int depth = -1, bool ... */" />
+            <marker date="1535830446000" expanded="true" signature="32965:33327" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="33389:33731" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="33782:34116" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="34126:34172" ph="/* C++: Mat Mat::clone() ... */" />
+            <marker date="1535830446000" expanded="true" signature="34182:34594" ph="/* &lt;p&gt;Creates a full copy of the array and the underlying data.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="34622:34945" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="34955:35004" ph="/* C++: Mat Mat::col(int x) ... */" />
+            <marker date="1535830446000" expanded="true" signature="35014:35514" ph="/* &lt;p&gt;Creates a matrix header for the specified matrix column.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="35545:35869" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="35879:35952" ph="/* C++: Mat Mat::colRange(int startcol, int endcol) ... */" />
+            <marker date="1535830446000" expanded="true" signature="35962:36465" ph="/* &lt;p&gt;Creates a matrix header for the specified column span.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="36520:36864" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="36874:36930" ph="/* C++: Mat Mat::colRange(Range r) ... */" />
+            <marker date="1535830446000" expanded="true" signature="36940:37377" ph="/* &lt;p&gt;Creates a matrix header for the specified column span.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="37415:37757" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="37767:37812" ph="/* C++: int Mat::dims() ... */" />
+            <marker date="1535830446000" expanded="true" signature="37840:38149" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="38159:38204" ph="/* C++: int Mat::cols() ... */" />
+            <marker date="1535830446000" expanded="true" signature="38232:38542" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="38552:38666" ph="/* C++: void Mat::convertTo(Mat&amp; m, int rtype, double alpha = 1, double beta ... */" />
+            <marker date="1535830446000" expanded="true" signature="38676:39569" ph="/* &lt;p&gt;Converts an array to another data type with optional scaling.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="39645:40042" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="40052:40887" ph="/* &lt;p&gt;Converts an array to another data type with optional scaling.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="40950:41331" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="41341:42137" ph="/* &lt;p&gt;Converts an array to another data type with optional scaling.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="42186:42568" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="42578:42632" ph="/* C++: void Mat::copyTo(Mat&amp; m) ... */" />
+            <marker date="1535830446000" expanded="true" signature="42642:43592" ph="/* &lt;p&gt;Copies the matrix to another one.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="43627:43998" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="44008:44072" ph="/* C++: void Mat::copyTo(Mat&amp; m, Mat mask) ... */" />
+            <marker date="1535830446000" expanded="true" signature="44082:45137" ph="/* &lt;p&gt;Copies the matrix to another one.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="45182:45641" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="45651:45727" ph="/* C++: void Mat::create(int rows, int cols, int type) ... */" />
+            <marker date="1535830446000" expanded="true" signature="45737:47334" ph="/* &lt;p&gt;Allocates new array data if needed.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="47392:47696" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="47706:47773" ph="/* C++: void Mat::create(Size size, int type) ... */" />
+            <marker date="1535830446000" expanded="true" signature="47783:49398" ph="/* &lt;p&gt;Allocates new array data if needed.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="49447:49764" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="49774:49825" ph="/* C++: Mat Mat::cross(Mat m) ... */" />
+            <marker date="1535830446000" expanded="true" signature="49835:50313" ph="/* &lt;p&gt;Computes a cross-product of two 3-element vectors.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="50346:50738" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="50748:50798" ph="/* C++: long Mat::dataAddr() ... */" />
+            <marker date="1535830446000" expanded="true" signature="50831:51136" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="51146:51192" ph="/* C++: int Mat::depth() ... */" />
+            <marker date="1535830446000" expanded="true" signature="51202:52302" ph="/* &lt;p&gt;Returns the depth of a matrix element.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="52330:52631" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="52641:52695" ph="/* C++: Mat Mat::diag(int d = 0) ... */" />
+            <marker date="1535830446000" expanded="true" signature="52705:53568" ph="/* &lt;p&gt;Extracts a diagonal from a matrix, or creates a diagonal matrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="53600:53920" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="53930:54339" ph="/* &lt;p&gt;Extracts a diagonal from a matrix, or creates a diagonal matrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="54366:54686" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="54696:54753" ph="/* C++: static Mat Mat::diag(Mat d) ... */" />
+            <marker date="1535830446000" expanded="true" signature="54763:55626" ph="/* &lt;p&gt;Extracts a diagonal from a matrix, or creates a diagonal matrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="55665:56017" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="56027:56079" ph="/* C++: double Mat::dot(Mat m) ... */" />
+            <marker date="1535830446000" expanded="true" signature="56089:56678" ph="/* &lt;p&gt;Computes a dot-product of two vectors.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="56712:57092" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="57102:57154" ph="/* C++: size_t Mat::elemSize() ... */" />
+            <marker date="1535830446000" expanded="true" signature="57164:57536" ph="/* &lt;p&gt;Returns the matrix element size in bytes.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="57568:57898" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="57908:57961" ph="/* C++: size_t Mat::elemSize1() ... */" />
+            <marker date="1535830446000" expanded="true" signature="57971:58411" ph="/* &lt;p&gt;Returns the size of each matrix element channel in bytes.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="58444:58775" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="58785:58832" ph="/* C++: bool Mat::empty() ... */" />
+            <marker date="1535830446000" expanded="true" signature="58842:59313" ph="/* &lt;p&gt;Returns &lt;code&gt;true&lt;/code&gt; if the array has no elements.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="59342:59648" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="59658:59737" ph="/* C++: static Mat Mat::eye(int rows, int cols, int type) ... */" />
+            <marker date="1535830446000" expanded="true" signature="59747:60408" ph="/* &lt;p&gt;Returns an identity matrix of the specified size and type.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="60469:60761" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="60771:60841" ph="/* C++: static Mat Mat::eye(Size size, int type) ... */" />
+            <marker date="1535830446000" expanded="true" signature="60851:61537" ph="/* &lt;p&gt;Returns an identity matrix of the specified size and type.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="61589:61894" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="61904:61970" ph="/* C++: Mat Mat::inv(int method = DECOMP_LU) ... */" />
+            <marker date="1535830446000" expanded="true" signature="61980:62895" ph="/* &lt;p&gt;Inverses a matrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="62931:63255" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="63265:63692" ph="/* &lt;p&gt;Inverses a matrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="63718:64033" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="64043:64097" ph="/* C++: bool Mat::isContinuous() ... */" />
+            <marker date="1535830446000" expanded="true" signature="64107:67985" ph="/* &lt;p&gt;Reports whether the matrix is continuous or not.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="68021:68334" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="68344:68397" ph="/* C++: bool Mat::isSubmatrix() ... */" />
+            <marker date="1535830446000" expanded="true" signature="68433:68745" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="68755:68831" ph="/* C++: void Mat::locateROI(Size wholeSize, Point ofs) ... */" />
+            <marker date="1535830446000" expanded="true" signature="68841:69786" ph="/* &lt;p&gt;Locates the matrix header within a parent matrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="69844:70518" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="70214:70336" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="70366:70455" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="70528:70595" ph="/* C++: Mat Mat::mul(Mat m, double scale = 1) ... */" />
+            <marker date="1535830446000" expanded="true" signature="70605:71292" ph="/* &lt;p&gt;Performs an element-wise multiplication or division of the two matrices.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="71337:71739" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="71749:72397" ph="/* &lt;p&gt;Performs an element-wise multiplication or division of the two matrices.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="72428:72822" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="72832:72912" ph="/* C++: static Mat Mat::ones(int rows, int cols, int type) ... */" />
+            <marker date="1535830446000" expanded="true" signature="72922:73795" ph="/* &lt;p&gt;Returns an array of all 1's of the specified size and type.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="73857:74150" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="74160:74231" ph="/* C++: static Mat Mat::ones(Size size, int type) ... */" />
+            <marker date="1535830446000" expanded="true" signature="74241:75143" ph="/* &lt;p&gt;Returns an array of all 1's of the specified size and type.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="75196:75501" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="75511:75567" ph="/* C++: void Mat::push_back(Mat m) ... */" />
+            <marker date="1535830446000" expanded="true" signature="75577:76073" ph="/* &lt;p&gt;Adds elements to the bottom of the matrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="76111:76473" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="76483:76532" ph="/* C++: void Mat::release() ... */" />
+            <marker date="1535830446000" expanded="true" signature="76542:77576" ph="/* &lt;p&gt;Decrements the reference counter and deallocates the matrix if needed.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="77607:77888" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="77898:77966" ph="/* C++: Mat Mat::reshape(int cn, int rows = 0) ... */" />
+            <marker date="1535830446000" expanded="true" signature="77976:79634" ph="/* &lt;p&gt;Changes the shape and/or the number of channels of a 2D matrix without ... */" />
+            <marker date="1535830446000" expanded="true" signature="79680:80011" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="80021:81581" ph="/* &lt;p&gt;Changes the shape and/or the number of channels of a 2D matrix without ... */" />
+            <marker date="1535830446000" expanded="true" signature="81617:81941" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="81951:82000" ph="/* C++: Mat Mat::row(int y) ... */" />
+            <marker date="1535830446000" expanded="true" signature="82010:83637" ph="/* &lt;p&gt;Creates a matrix header for the specified matrix row.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="83668:83983" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="83993:84066" ph="/* C++: Mat Mat::rowRange(int startrow, int endrow) ... */" />
+            <marker date="1535830446000" expanded="true" signature="84076:84567" ph="/* &lt;p&gt;Creates a matrix header for the specified row span.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="84622:84957" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="84967:85023" ph="/* C++: Mat Mat::rowRange(Range r) ... */" />
+            <marker date="1535830446000" expanded="true" signature="85033:85464" ph="/* &lt;p&gt;Creates a matrix header for the specified row span.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="85502:85835" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="85845:85890" ph="/* C++: int Mat::rows() ... */" />
+            <marker date="1535830446000" expanded="true" signature="85918:86218" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="86228:86287" ph="/* C++: Mat Mat::operator =(Scalar s) ... */" />
+            <marker date="1535830446000" expanded="true" signature="86324:86689" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="86699:86775" ph="/* C++: Mat Mat::setTo(Scalar value, Mat mask = Mat()) ... */" />
+            <marker date="1535830446000" expanded="true" signature="86785:87224" ph="/* &lt;p&gt;Sets all or some of the array elements to the specified value.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="87274:87743" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="87753:87826" ph="/* C++: Mat Mat::setTo(Mat value, Mat mask = Mat()) ... */" />
+            <marker date="1535830446000" expanded="true" signature="87836:88275" ph="/* &lt;p&gt;Sets all or some of the array elements to the specified value.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="88322:88818" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="88828:89102" ph="/* &lt;p&gt;Sets all or some of the array elements to the specified value.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="89139:89547" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="89557:89603" ph="/* C++: Size Mat::size() ... */" />
+            <marker date="1535830446000" expanded="true" signature="89613:89930" ph="/* &lt;p&gt;Returns a matrix size.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="89958:90459" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="90132:90235" ph="/* Size retVal = new Size(opencv_core_Mat_n_1size(nativeObj)); ... */" />
+            <marker date="1535830446000" expanded="true" signature="90469:90527" ph="/* C++: size_t Mat::step1(int i = 0) ... */" />
+            <marker date="1535830446000" expanded="true" signature="90537:90866" ph="/* &lt;p&gt;Returns a normalized step.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="90900:91209" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="91219:91529" ph="/* &lt;p&gt;Returns a normalized step.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="91558:91863" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="91873:91985" ph="/* C++: Mat Mat::operator()(int rowStart, int rowEnd, int colStart, int ... */" />
+            <marker date="1535830446000" expanded="true" signature="91995:92705" ph="/* &lt;p&gt;Extracts a rectangular submatrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="92784:93139" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="93149:93230" ph="/* C++: Mat Mat::operator()(Range rowRange, Range colRange) ... */" />
+            <marker date="1535830446000" expanded="true" signature="93240:94160" ph="/* &lt;p&gt;Extracts a rectangular submatrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="94219:94598" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="94608:94667" ph="/* C++: Mat Mat::operator()(Rect roi) ... */" />
+            <marker date="1535830446000" expanded="true" signature="94677:95335" ph="/* &lt;p&gt;Extracts a rectangular submatrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="95372:95724" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="95734:95776" ph="/* C++: Mat Mat::t() ... */" />
+            <marker date="1535830446000" expanded="true" signature="95786:96402" ph="/* &lt;p&gt;Transposes a matrix.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="96426:96736" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="96746:96795" ph="/* C++: size_t Mat::total() ... */" />
+            <marker date="1535830446000" expanded="true" signature="96805:97108" ph="/* &lt;p&gt;Returns the total number of array elements.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="97137:97439" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="97449:97494" ph="/* C++: int Mat::type() ... */" />
+            <marker date="1535830446000" expanded="true" signature="97504:97887" ph="/* &lt;p&gt;Returns the type of a matrix element.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="97914:98214" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="98224:98305" ph="/* C++: static Mat Mat::zeros(int rows, int cols, int type) ... */" />
+            <marker date="1535830446000" expanded="true" signature="98315:99122" ph="/* &lt;p&gt;Returns a zero array of the specified size and type.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="99185:99478" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="99488:99560" ph="/* C++: static Mat Mat::zeros(Size size, int type) ... */" />
+            <marker date="1535830446000" expanded="true" signature="99570:100406" ph="/* &lt;p&gt;Returns a zero array of the specified size and type.&lt;/p&gt; ... */" />
+            <marker date="1535830446000" expanded="true" signature="100460:100766" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="100830:101336" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="101367:101652" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="101717:102374" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="102431:103236" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="103019:103114" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="103291:104096" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="103879:103974" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="104153:104995" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="104778:104873" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="105051:105891" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="105674:105769" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="105971:106862" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="106623:106740" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="106919:107759" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="107542:107637" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="107816:108658" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="108441:108536" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="108713:109518" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="109301:109396" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="109575:110380" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="110163:110258" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="110438:111243" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="111026:111121" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="111291:111779" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="111633:111677" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="111809:112013" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="112042:112246" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="112289:112527" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="114810:114914" ph="/* C++: int Mat::checkVector(int elemChannels, int depth = -1, bool ... */" />
+            <marker date="1535830446000" expanded="true" signature="116114:116206" ph="/* C++: void Mat::convertTo(Mat&amp; m, int rtype, double alpha = 1, double beta ... */" />
+            <marker date="1535830446000" expanded="false" signature="127242:133079" ph="Operators" />
+            <marker date="1535830446000" expanded="false" signature="127391:127901" ph="Unary" />
+            <marker date="1535830446000" expanded="false" signature="127414:127647" ph="-" />
+            <marker date="1535830446000" expanded="true" signature="127432:127458" ph="/* Negation. ... */" />
+            <marker date="1535830446000" expanded="true" signature="127503:127628" ph="{...}" />
+            <marker date="1535830446000" expanded="false" signature="127657:127881" ph="~" />
+            <marker date="1535830446000" expanded="true" signature="127676:127705" ph="/* Bitwise not. ... */" />
+            <marker date="1535830446000" expanded="true" signature="127750:127861" ph="{...}" />
+            <marker date="1535830446000" expanded="false" signature="127912:133059" ph="Binary" />
+            <marker date="1535830446000" expanded="false" signature="127936:128524" ph="+" />
+            <marker date="1535830446000" expanded="true" signature="127954:128023" ph="/* Addition. ... */" />
+            <marker date="1535830446000" expanded="true" signature="128075:128181" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="128237:128343" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="128399:128505" ph="{...}" />
+            <marker date="1535830446000" expanded="false" signature="128534:129234" ph="-" />
+            <marker date="1535830446000" expanded="true" signature="128552:128624" ph="/* Subtraction. ... */" />
+            <marker date="1535830446000" expanded="true" signature="128676:128787" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="128843:128954" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="129010:129215" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="129114:129183" ph="{...}" />
+            <marker date="1535830446000" expanded="false" signature="129244:129912" ph="*" />
+            <marker date="1535830446000" expanded="true" signature="129262:129304" ph="/* Matrix multiplication. ... */" />
+            <marker date="1535830446000" expanded="true" signature="129356:129481" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="129491:129534" ph="/* Scaling. ... */" />
+            <marker date="1535830446000" expanded="true" signature="129589:129713" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="129769:129893" ph="{...}" />
+            <marker date="1535830446000" expanded="false" signature="129922:130682" ph="/" />
+            <marker date="1535830446000" expanded="true" signature="129940:130011" ph="/* Per-element multiplication and division. ... */" />
+            <marker date="1535830446000" expanded="true" signature="130063:130172" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="130228:130444" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="130345:130412" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="130454:130486" ph="/* Scaling. ... */" />
+            <marker date="1535830446000" expanded="true" signature="130541:130663" ph="{...}" />
+            <marker date="1535830446000" expanded="false" signature="130692:131469" ph="&amp;" />
+            <marker date="1535830446000" expanded="true" signature="130710:130756" ph="/* Bitwise and. ... */" />
+            <marker date="1535830446000" expanded="true" signature="130808:130922" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="130978:131186" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="131082:131154" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="131242:131450" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="131346:131418" ph="{...}" />
+            <marker date="1535830446000" expanded="false" signature="131479:132252" ph="|" />
+            <marker date="1535830446000" expanded="true" signature="131497:131542" ph="/* Bitwise or. ... */" />
+            <marker date="1535830446000" expanded="true" signature="131594:131707" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="131763:131970" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="131867:131938" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="132026:132233" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="132130:132201" ph="{...}" />
+            <marker date="1535830446000" expanded="false" signature="132262:133039" ph="^" />
+            <marker date="1535830446000" expanded="true" signature="132280:132326" ph="/* Bitwise xor. ... */" />
+            <marker date="1535830446000" expanded="true" signature="132378:132492" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="132548:132756" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="132652:132724" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="132812:133020" ph="{...}" />
+            <marker date="1535830446000" expanded="true" signature="132916:132988" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/MainModules/objdetect/FaceDetectionExample/FaceDetectionWebCamTextureExample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="949">
+          <caret line="187" column="60" selection-start-line="187" selection-start-column="55" selection-end-line="187" selection-end-column="60" />
+          <folding>
+            <marker date="1535829869000" expanded="false" signature="6:193" ph="..." />
+            <marker date="1535829869000" expanded="true" signature="226:10276" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="233:493" ph="/// Face Detection WebCamTexture Example ... " />
+            <marker date="1535829869000" expanded="true" signature="618:10274" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="633:695" ph="/// The gray mat. ... " />
+            <marker date="1535829869000" expanded="true" signature="726:787" ph="/// The texture. ... " />
+            <marker date="1535829869000" expanded="true" signature="824:885" ph="/// The cascade. ... " />
+            <marker date="1535829869000" expanded="true" signature="930:989" ph="/// The faces. ... " />
+            <marker date="1535829869000" expanded="true" signature="1024:1106" ph="/// The webcam texture to mat helper. ... " />
+            <marker date="1535829869000" expanded="true" signature="1175:1240" ph="/// The FPS monitor. ... " />
+            <marker date="1535829869000" expanded="true" signature="1554:3813" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="2531:2664" ph="/* cascade = new CascadeClassifier (); ... */" />
+            <marker date="1535829869000" expanded="true" signature="2731:2898" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="2978:3328" ph="/* Set the requestedFPS parameter to avoid the problem of the WebCamTexture image becoming low light on some Andr ... */" />
+            <marker date="1535829869000" expanded="true" signature="3823:3931" ph="/// Raises the web cam texture to mat helper initialized event. ... " />
+            <marker date="1535829869000" expanded="true" signature="3992:5539" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="4644:4900" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="5189:5309" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="5549:5654" ph="/// Raises the web cam texture to mat helper disposed event. ... " />
+            <marker date="1535829869000" expanded="true" signature="5712:6056" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="5889:5980" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="6066:6233" ph="/// Raises the web cam texture to mat helper error occurred event. ... " />
+            <marker date="1535829869000" expanded="true" signature="6340:6440" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="6507:7962" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="6623:7952" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="7275:7586" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="7972:8046" ph="/// Raises the destroy event. ... " />
+            <marker date="1535829869000" expanded="true" signature="8072:8438" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="8448:8532" ph="/// Raises the back button click event. ... " />
+            <marker date="1535829869000" expanded="true" signature="8573:8801" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="8811:8895" ph="/// Raises the play button click event. ... " />
+            <marker date="1535829869000" expanded="true" signature="8936:9002" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="9012:9097" ph="/// Raises the pause button click event. ... " />
+            <marker date="1535829869000" expanded="true" signature="9139:9206" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="9216:9300" ph="/// Raises the stop button click event. ... " />
+            <marker date="1535829869000" expanded="true" signature="9341:9407" ph="{...}" />
+            <marker date="1535829869000" expanded="true" signature="9417:9510" ph="/// Raises the change camera button click event. ... " />
+            <marker date="1535829869000" expanded="true" signature="9559:10268" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ToMatHelperManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+          <folding>
+            <marker date="1546041453005" expanded="true" signature="6:69" ph="..." />
+            <marker date="1546041453005" expanded="true" signature="71:168" ph="/// WebCamTextureToMatHelperの初期化・破棄を行う． ... " />
+            <marker date="1546041453005" expanded="true" signature="216:2882" ph="{...}" />
+            <marker date="1546041453005" expanded="true" signature="390:602" ph="{...}" />
+            <marker date="1546041453005" expanded="true" signature="621:868" ph="{...}" />
+            <marker date="1546041453005" expanded="true" signature="925:2394" ph="{...}" />
+            <marker date="1546041453005" expanded="true" signature="1395:1636" ph="{...}" />
+            <marker date="1546041453005" expanded="true" signature="1916:2014" ph="{...}" />
+            <marker date="1546041453005" expanded="true" signature="2104:2191" ph="/* Quadを画面いっぱいにリサイズ ... */" />
+            <marker date="1546041453005" expanded="true" signature="2448:2620" ph="{...}" />
+            <marker date="1546041453005" expanded="true" signature="2543:2614" ph="{...}" />
+            <marker date="1546041453005" expanded="true" signature="2727:2810" ph="{...}" />
+            <marker date="1546041453005" expanded="true" signature="2836:2880" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Printer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <marker date="1546039286496" expanded="true" signature="6:159" ph="..." />
+            <marker date="1546039286496" expanded="true" signature="198:1317" ph="{...}" />
+            <marker date="1546039286496" expanded="true" signature="201:312" ph="/* WebCamTextureToMatHelper _toMatHelper; ... */" />
+            <marker date="1546039286496" expanded="true" signature="447:928" ph="{...}" />
+            <marker date="1546039286496" expanded="true" signature="603:925" ph="/* Img = imread(&quot;/Users/takaya/Downloads/c638d75b.jpg&quot;); ... */" />
+            <marker date="1546039286496" expanded="true" signature="947:1315" ph="{...}" />
+            <marker date="1546039286496" expanded="true" signature="951:1312" ph="/* if (_detector.Face == null) { ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1546040115137" expanded="true" signature="6:142" ph="..." />
+            <marker date="1546040115137" expanded="true" signature="187:3432" ph="{...}" />
+            <marker date="1546040115137" expanded="true" signature="503:1202" ph="{...}" />
+            <marker date="1546040115137" expanded="true" signature="510:1196" ph="/* _printer = GetComponent&lt;Printer&gt;(); ... */" />
+            <marker date="1546040115137" expanded="true" signature="1334:3035" ph="{...}" />
+            <marker date="1546040115137" expanded="true" signature="2039:3029" ph="{...}" />
+            <marker date="1546040115137" expanded="true" signature="2062:2239" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
+            <marker date="1546040115137" expanded="true" signature="2571:2623" ph="/* Display the JSON response. ... */" />
+            <marker date="1546040115137" expanded="true" signature="3163:3430" ph="{...}" />
+            <marker date="1546040115137" expanded="true" signature="3276:3424" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="75" column="81" lean-forward="true" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="81" />
+        <state relative-caret-position="79">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
-            <marker date="1546026495229" expanded="true" signature="6:122" ph="..." />
-            <marker date="1546026495229" expanded="true" signature="166:5599" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="406:841" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="521:738" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="538:605" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="637:728" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="738:835" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="860:869" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="1008:3249" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="1194:1507" ph="/* Request parameters. A third optional parameter is &quot;details&quot;. ... */" />
-            <marker date="1546026495229" expanded="true" signature="1984:3243" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="2007:2184" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
-            <marker date="1546026495229" expanded="true" signature="2532:2618" ph="/* Display the JSON response. ... */" />
-            <marker date="1546026495229" expanded="true" signature="3377:3644" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="3490:3638" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="3764:5597" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="4101:5553" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="4135:4368" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="4440:5543" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="4482:5529" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="5633:5745" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="5788:5878" ph="{...}" />
-            <marker date="1546026495229" expanded="true" signature="5922:5948" ph="{...}" />
+            <marker date="1546042030250" expanded="true" signature="6:40" ph="..." />
+            <marker date="1546042030250" expanded="true" signature="112:1518" ph="{...}" />
+            <marker date="1546042030250" expanded="true" signature="290:534" ph="{...}" />
+            <marker date="1546042030250" expanded="true" signature="550:556" ph="{...}" />
+            <marker date="1546042030250" expanded="true" signature="591:1516" ph="{...}" />
+            <marker date="1546042030250" expanded="true" signature="626:1513" ph="{...}" />
+            <marker date="1546042030250" expanded="true" signature="972:1174" ph="{...}" />
           </folding>
         </state>
       </provider>
