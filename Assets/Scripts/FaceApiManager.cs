@@ -13,7 +13,7 @@ public class FaceApiManager : MonoBehaviour
     const string URI_BASE =
         "https://eastasia.api.cognitive.microsoft.com/face/v1.0/detect?returnFaceId=true&returnFaceLandmarks=false";
 
-    Byte[] _bytes;
+    byte[] _bytes;
     
 	void Start ()
     {
@@ -36,9 +36,21 @@ public class FaceApiManager : MonoBehaviour
 //            Debug.Log("\nInvalid file path.\nPress Enter to exit...\n");
 //        }
     }
-	
-	// Gets the analysis of the specified image by using the Face REST API.
-    async void MakeAnalysisRequest(string imageFilePath)
+
+    public void GetAge(byte[] bytes)
+    {
+        try{
+            MakeAnalysisRequest(bytes);
+        }
+        catch (Exception e){
+            Debug.Log("\n" + e.Message + "\nPress Enter to exit...\n");
+        }
+
+//        return (int)Face.faceAttributes.age;
+    }
+
+    // Gets the analysis of the specified image by using the Face REST API.
+    async void MakeAnalysisRequest(byte[] bytes)
     {
         var client = new HttpClient();
 
@@ -55,10 +67,9 @@ public class FaceApiManager : MonoBehaviour
         HttpResponseMessage response;
 
         // Request body. Posts a locally stored JPEG image.
-        var byteData = GetImageAsByteArray(imageFilePath);
-        Debug.Log(byteData.Length);
+//        var byteData = GetImageAsByteArray(imageFilePath);
 
-        using (var content = new ByteArrayContent(_printer._bytes))
+        using (var content = new ByteArrayContent(bytes))
         {
             // This example uses content type "application/octet-stream".
             // The other content types you can use are "application/json"
@@ -75,6 +86,10 @@ public class FaceApiManager : MonoBehaviour
             //外側の[]を削除
             contentString = contentString.Substring(1, contentString.Length - 2);
             Debug.Log(contentString);
+            if (string.IsNullOrEmpty(contentString)) {
+                Debug.Log("empty");
+                return;
+            }
         
             string json = contentString;
             Face = JsonUtility.FromJson<Face>(json);

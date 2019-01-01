@@ -20,5 +20,5 @@ public class FaceRectangle
 [Serializable]
 public class FaceAttributes
 {
-	public float age;
+	public int age;
 }

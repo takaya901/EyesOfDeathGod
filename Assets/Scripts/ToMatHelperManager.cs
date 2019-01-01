@@ -11,14 +11,17 @@ public class ToMatHelperManager : MonoBehaviour
     Texture2D _quadTex;
     WebCamTextureToMatHelper _toMatHelper;
     FpsMonitor _fpsMonitor;
+    FaceApiManager _apiManager;
     FaceDetector _detector;
     Mat _webcamMat, _detected;
+    bool a;
 
     void Start()
     {
         _toMatHelper = GetComponent<WebCamTextureToMatHelper>();
         _fpsMonitor = GetComponent<FpsMonitor>();
         _detector = GetComponent<FaceDetector>();
+        _apiManager = GetComponent<FaceApiManager>();
         _toMatHelper.Initialize();
     }
 
@@ -28,7 +31,20 @@ public class ToMatHelperManager : MonoBehaviour
 
         _webcamMat = _toMatHelper.GetMat();
         _detected = _detector.Detect(_webcamMat);
+
+//        if (_apiManager.Face != null) {
+//            Debug.Log(_apiManager.Face.faceAttributes.age);
+//            _detected = PutAgeOnHead(_detected, _apiManager.Face);
+//        }
         Utils.fastMatToTexture2D(_detected, _quadTex);
+        if (_detector._faces.toArray().Length == 0 && !a) {
+            return;
+        }
+
+        if (a) return;
+        a = true;
+        var bytes = _quadTex.EncodeToJPG();
+        _apiManager.GetAge(bytes);
     }
 
     public void OnWebCamTextureToMatHelperInitialized()
