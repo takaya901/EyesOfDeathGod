@@ -4,43 +4,44 @@ using OpenCVForUnityExample;
 using UnityEngine;
 using static OpenCVForUnity.Imgcodecs;
 using static OpenCVForUnity.Imgproc;
+using static OpenCVForUnity.Utils;
 
 public class Printer : MonoBehaviour 
 {
-//	WebCamTextureToMatHelper _toMatHelper;
-//	ToMatHelperManager _toMatHelperManager;
-//	FpsMonitor _fpsMonitor;
 	WebCamTextureToMatHelper _toMatHelper;
+	ToMatHelperManager _toMatHelperMgr;
+	FaceApiManager _apiManager;
 	FaceDetector _detector;
-	Mat Img;
+	Mat _webcamMat, _detected;
 	Texture2D _quadTex;
 	public byte[] _bytes;
+	bool a;
 	
-	void Awake()
+	void Start()
 	{
-		_toMatHelper = GetComponent<WebCamTextureToMatHelper>();
-//		_fpsMonitor = GetComponent<FpsMonitor>();
 		_detector = GetComponent<FaceDetector>();
-		
-//		Img = imread("/Users/takaya/Downloads/c638d75b.jpg");
-//		cvtColor(Img, Img, COLOR_BGR2RGB);
-//		_quadTex = new Texture2D(Img.cols(), Img.rows(), TextureFormat.RGB24, false);
-//		GetComponent<Renderer>().material.mainTexture = _quadTex;
-//		Utils.fastMatToTexture2D(Img, _quadTex);
-//		_bytes = _quadTex.EncodeToJPG();
+		_apiManager = GetComponent<FaceApiManager>();
+		_toMatHelperMgr = GetComponent<ToMatHelperManager>();
+		_toMatHelper = GetComponent<WebCamTextureToMatHelper>();
+		_toMatHelper.Initialize();
 	}
 	
-	void Update () 
+	void Update() 
 	{
-//		if (_detector.Face == null) {
-//			return;
-//		}
-//
-//		var face = _detector.Face;
-//		var pt1 = new Point(face.faceRectangle.left, face.faceRectangle.top);
-//		var pt2 = new Point(pt1.x + face.faceRectangle.width, pt1.y + face.faceRectangle.height);
-//		
-//		rectangle(Img, pt1, pt2, new Scalar(0, 0, 255), 10);
-//		Utils.fastMatToTexture2D(Img, _quadTex);
+		if (!_toMatHelperMgr.IsInitialized) return;	//_quadTexが設定されるまで待つ
+		if (!_toMatHelper.IsPlaying() || !_toMatHelper.DidUpdateThisFrame()) return;
+
+		_webcamMat = _toMatHelper.GetMat();
+		_detected = _detector.Detect(_webcamMat);
+        
+		fastMatToTexture2D(_detected, _toMatHelperMgr.QuadTex);
+		if (_detector._faces.toArray().Length == 0 && !a) {
+			return;
+		}
+
+		if (a) return;
+		a = true;
+		var bytes = _toMatHelperMgr.QuadTex.EncodeToJPG();
+		_apiManager.GetAge(bytes);
 	}
 }

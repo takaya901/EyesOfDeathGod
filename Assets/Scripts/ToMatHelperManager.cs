@@ -1,50 +1,21 @@
-﻿using OpenCVForUnity;
-using OpenCVForUnityExample;
+﻿using OpenCVForUnityExample;
 using UnityEngine;
 
 /// <summary>
-/// WebCamTextureToMatHelperの初期化・破棄を行う．
-/// WebCamManagerに書くと長いので分けた
+/// WebCamTextureToMatHelperの初期化・破棄時イベントを実行する
 /// </summary>
 public class ToMatHelperManager : MonoBehaviour
 {
-    Texture2D _quadTex;
+    public Texture2D QuadTex { get; private set; }
+    public bool IsInitialized { get; private set; }
+
     WebCamTextureToMatHelper _toMatHelper;
     FpsMonitor _fpsMonitor;
-    FaceApiManager _apiManager;
-    FaceDetector _detector;
-    Mat _webcamMat, _detected;
-    bool a;
 
     void Start()
     {
         _toMatHelper = GetComponent<WebCamTextureToMatHelper>();
         _fpsMonitor = GetComponent<FpsMonitor>();
-        _detector = GetComponent<FaceDetector>();
-        _apiManager = GetComponent<FaceApiManager>();
-        _toMatHelper.Initialize();
-    }
-
-    void Update()
-    {
-        if (!_toMatHelper.IsPlaying() || !_toMatHelper.DidUpdateThisFrame()) return;
-
-        _webcamMat = _toMatHelper.GetMat();
-        _detected = _detector.Detect(_webcamMat);
-
-//        if (_apiManager.Face != null) {
-//            Debug.Log(_apiManager.Face.faceAttributes.age);
-//            _detected = PutAgeOnHead(_detected, _apiManager.Face);
-//        }
-        Utils.fastMatToTexture2D(_detected, _quadTex);
-        if (_detector._faces.toArray().Length == 0 && !a) {
-            return;
-        }
-
-        if (a) return;
-        a = true;
-        var bytes = _quadTex.EncodeToJPG();
-        _apiManager.GetAge(bytes);
     }
 
     public void OnWebCamTextureToMatHelperInitialized()
@@ -52,8 +23,8 @@ public class ToMatHelperManager : MonoBehaviour
         Debug.Log ("OnWebCamTextureToMatHelperInitialized");
 
         var webCamTextureMat = _toMatHelper.GetMat();
-        _quadTex = new Texture2D(webCamTextureMat.cols(), webCamTextureMat.rows(), TextureFormat.RGBA32, false);
-        GetComponent<Renderer>().material.mainTexture = _quadTex;
+        QuadTex = new Texture2D(webCamTextureMat.cols(), webCamTextureMat.rows(), TextureFormat.RGBA32, false);
+        GetComponent<Renderer>().material.mainTexture = QuadTex;
 
         Debug.Log ("Screen.width " + Screen.width + " Screen.height " + Screen.height + " Screen.orientation " + Screen.orientation);
 
@@ -79,14 +50,15 @@ public class ToMatHelperManager : MonoBehaviour
         var quadHeight = Camera.main.orthographicSize * 2;
         var quadWidth = quadHeight * Camera.main.aspect;
         gameObject.transform.localScale = new Vector3(quadWidth, quadHeight, 1);
+        IsInitialized = true;
     }
 
     public void OnWebCamTextureToMatHelperDisposed()
     {
         Debug.Log ("OnWebCamTextureToMatHelperDisposed");
-        if (_quadTex != null) {
-            Destroy(_quadTex);
-            _quadTex = null;
+        if (QuadTex != null) {
+            Destroy(QuadTex);
+            QuadTex = null;
         }
     }
     

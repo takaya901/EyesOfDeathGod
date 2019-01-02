@@ -45,8 +45,6 @@ public class FaceApiManager : MonoBehaviour
         catch (Exception e){
             Debug.Log("\n" + e.Message + "\nPress Enter to exit...\n");
         }
-
-//        return (int)Face.faceAttributes.age;
     }
 
     // Gets the analysis of the specified image by using the Face REST API.
@@ -76,13 +74,10 @@ public class FaceApiManager : MonoBehaviour
             // and "multipart/form-data".
             content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
 
-            // Execute the REST API call.
             response = await client.PostAsync(uri, content);
 
-            // Get the JSON response.
             string contentString = await response.Content.ReadAsStringAsync();
 
-            // Display the JSON response.
             //外側の[]を削除
             contentString = contentString.Substring(1, contentString.Length - 2);
             Debug.Log(contentString);
@@ -97,17 +92,6 @@ public class FaceApiManager : MonoBehaviour
             Debug.Log("face id " + Face.faceId);
             Debug.Log("face top " + Face.faceRectangle.top);
             Debug.Log("face age " + Face.faceAttributes.age);
-        }
-    }
-
-    // Returns the contents of the specified file as a byte array.
-    static byte[] GetImageAsByteArray(string imageFilePath)
-    {
-        using (var fileStream =
-            new FileStream(imageFilePath, FileMode.Open, FileAccess.Read))
-        {
-            var binaryReader = new BinaryReader(fileStream);
-            return binaryReader.ReadBytes((int)fileStream.Length);
         }
     }
 }
