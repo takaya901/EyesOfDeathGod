@@ -55,7 +55,7 @@ public class ToMatHelperManager : MonoBehaviour
 
     public void OnWebCamTextureToMatHelperDisposed()
     {
-        Debug.Log ("OnWebCamTextureToMatHelperDisposed");
+        Debug.Log("OnWebCamTextureToMatHelperDisposed");
         if (QuadTex != null) {
             Destroy(QuadTex);
             QuadTex = null;
@@ -63,7 +63,7 @@ public class ToMatHelperManager : MonoBehaviour
     }
     
     public void OnWebCamTextureToMatHelperErrorOccurred(WebCamTextureToMatHelper.ErrorCode errorCode){
-        Debug.Log ("OnWebCamTextureToMatHelperErrorOccurred " + errorCode);
+        Debug.Log("OnWebCamTextureToMatHelperErrorOccurred " + errorCode);
     }
     
     void OnDestroy()

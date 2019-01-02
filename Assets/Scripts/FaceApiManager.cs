@@ -5,37 +5,16 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using static OpenCVForUnity.Imgcodecs;
 
+/// <summary>
+/// Printerからテクスチャのバイト配列を受け，FaceAPIに送って年齢を取得する
+/// </summary>
 public class FaceApiManager : MonoBehaviour
 {
-    Printer _printer;
-    public Face Face { get; set; }
+    public Face Face { get; private set; }
+    
     const string SUBSCRIPTION_KEY = "b3560fbf21bb4f1c9e4cc1e8058e27a6";
     const string URI_BASE =
         "https://eastasia.api.cognitive.microsoft.com/face/v1.0/detect?returnFaceId=true&returnFaceLandmarks=false";
-
-    byte[] _bytes;
-    
-	void Start ()
-    {
-//        _printer = GetComponent<Printer>();
-//        string imageFilePath = "/Users/takaya/Downloads/c638d75b.jpg";
-//        var img = imread(imageFilePath);
-//        _bytes = new byte[(int) (img.total() * img.channels())];
-//        img.get(0, 0, _bytes);
-//        Debug.Log("mat: " + _bytes.Length);
-//
-//        if (File.Exists(imageFilePath)){
-//            try{
-//                MakeAnalysisRequest(imageFilePath);
-//            }
-//            catch (Exception e){
-//                Debug.Log("\n" + e.Message + "\nPress Enter to exit...\n");
-//            }
-//        }
-//        else{
-//            Debug.Log("\nInvalid file path.\nPress Enter to exit...\n");
-//        }
-    }
 
     public void GetAge(byte[] bytes)
     {
@@ -53,19 +32,13 @@ public class FaceApiManager : MonoBehaviour
         var client = new HttpClient();
 
         // Request headers.
-        client.DefaultRequestHeaders.Add(
-            "Ocp-Apim-Subscription-Key", SUBSCRIPTION_KEY);
+        client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", SUBSCRIPTION_KEY);
         
         string requestParameters = "returnFaceId=true&returnFaceLandmarks=false" +
                                    "&returnFaceAttributes=age";
 
         // Assemble the URI for the REST API Call.
         string uri = URI_BASE + "?" + requestParameters;
-
-        HttpResponseMessage response;
-
-        // Request body. Posts a locally stored JPEG image.
-//        var byteData = GetImageAsByteArray(imageFilePath);
 
         using (var content = new ByteArrayContent(bytes))
         {
@@ -74,7 +47,7 @@ public class FaceApiManager : MonoBehaviour
             // and "multipart/form-data".
             content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
 
-            response = await client.PostAsync(uri, content);
+            var response = await client.PostAsync(uri, content);
 
             string contentString = await response.Content.ReadAsStringAsync();
 
@@ -90,7 +63,6 @@ public class FaceApiManager : MonoBehaviour
             Face = JsonUtility.FromJson<Face>(json);
 
             Debug.Log("face id " + Face.faceId);
-            Debug.Log("face top " + Face.faceRectangle.top);
             Debug.Log("face age " + Face.faceAttributes.age);
         }
     }
