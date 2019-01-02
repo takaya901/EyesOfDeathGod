@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dda8b18f-0a95-42da-9f48-24c95c706fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Printer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Printer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ToMatHelperManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ToMatHelperManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,17 +18,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="671">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
-                <marker date="1546385983527" expanded="false" signature="6:243" ph="..." />
-                <marker date="1546385983527" expanded="true" signature="286:1877" ph="{...}" />
-                <marker date="1546385983527" expanded="true" signature="564:692" ph="{...}" />
-                <marker date="1546385983527" expanded="true" signature="744:1374" ph="{...}" />
-                <marker date="1546385983527" expanded="true" signature="778:1371" ph="{...}" />
-                <marker date="1546385983527" expanded="true" signature="1042:1204" ph="{...}" />
-                <marker date="1546385983527" expanded="true" signature="1274:1346" ph="{...}" />
-                <marker date="1546385983527" expanded="true" signature="1468:1875" ph="{...}" />
+                <marker date="1546456174445" expanded="false" signature="6:243" ph="..." />
+                <marker date="1546456174445" expanded="true" signature="286:1877" ph="{...}" />
+                <marker date="1546456174445" expanded="true" signature="564:692" ph="{...}" />
+                <marker date="1546456174445" expanded="true" signature="744:1374" ph="{...}" />
+                <marker date="1546456174445" expanded="true" signature="778:1371" ph="{...}" />
+                <marker date="1546456174445" expanded="true" signature="1042:1204" ph="{...}" />
+                <marker date="1546456174445" expanded="true" signature="1274:1346" ph="{...}" />
+                <marker date="1546456174445" expanded="true" signature="1468:1875" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -41,19 +37,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="70">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
               <folding>
-                <marker date="1546395818455" expanded="false" signature="6:142" ph="..." />
-                <marker date="1546395818455" expanded="true" signature="144:219" ph="///  ... " />
-                <marker date="1546395818455" expanded="true" signature="263:2315" ph="{...}" />
-                <marker date="1546395818455" expanded="true" signature="568:754" ph="{...}" />
-                <marker date="1546395818455" expanded="true" signature="586:637" ph="{...}" />
-                <marker date="1546395818455" expanded="true" signature="665:748" ph="{...}" />
-                <marker date="1546395818455" expanded="true" signature="880:2313" ph="{...}" />
-                <marker date="1546395818455" expanded="true" signature="1367:2307" ph="{...}" />
-                <marker date="1546395818455" expanded="true" signature="1390:1567" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
-                <marker date="1546395818455" expanded="true" signature="2007:2082" ph="{...}" />
+                <marker date="1546398740692" expanded="false" signature="6:142" ph="..." />
+                <marker date="1546398740692" expanded="true" signature="144:219" ph="///  ... " />
+                <marker date="1546398740692" expanded="true" signature="263:2343" ph="{...}" />
+                <marker date="1546398740692" expanded="true" signature="575:768" ph="{...}" />
+                <marker date="1546398740692" expanded="true" signature="593:651" ph="{...}" />
+                <marker date="1546398740692" expanded="true" signature="679:762" ph="{...}" />
+                <marker date="1546398740692" expanded="true" signature="901:2341" ph="{...}" />
+                <marker date="1546398740692" expanded="true" signature="1395:2335" ph="{...}" />
+                <marker date="1546398740692" expanded="true" signature="1418:1595" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
+                <marker date="1546398740692" expanded="true" signature="2035:2110" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,16 +58,43 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Printer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+            <state relative-caret-position="287">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
-                <marker date="1546398253100" expanded="false" signature="6:298" ph="..." />
-                <marker date="1546398253100" expanded="true" signature="337:1774" ph="{...}" />
-                <marker date="1546398253100" expanded="true" signature="567:897" ph="{...}" />
-                <marker date="1546398253100" expanded="true" signature="915:1435" ph="{...}" />
-                <marker date="1546398253100" expanded="true" signature="1304:1320" ph="{...}" />
-                <marker date="1546398253100" expanded="true" signature="1484:1772" ph="{...}" />
-                <marker date="1546398253100" expanded="true" signature="1557:1715" ph="{...}" />
+                <marker date="1546457585932" expanded="false" signature="6:298" ph="..." />
+                <marker date="1546457585932" expanded="true" signature="337:1897" ph="{...}" />
+                <marker date="1546457585932" expanded="true" signature="544:874" ph="{...}" />
+                <marker date="1546457585932" expanded="true" signature="878:918" ph="/* タッチされたらFaceAPIに送る ... */" />
+                <marker date="1546457585932" expanded="true" signature="934:1342" ph="{...}" />
+                <marker date="1546457585932" expanded="true" signature="1218:1243" ph="{...}" />
+                <marker date="1546457585932" expanded="true" signature="1365:1597" ph="{...}" />
+                <marker date="1546457585932" expanded="true" signature="1646:1895" ph="{...}" />
+                <marker date="1546457585932" expanded="true" signature="1719:1877" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TouchManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <folding>
+                <marker date="1546455630170" expanded="true" signature="52:1700" ph="{...}" />
+                <marker date="1546455630170" expanded="true" signature="110:222" ph="/// タッチ情報を取得(エディタと実機を考慮) ... " />
+                <marker date="1546455630170" expanded="true" signature="261:736" ph="{...}" />
+                <marker date="1546455630170" expanded="true" signature="301:534" ph="{...}" />
+                <marker date="1546455630170" expanded="true" signature="547:699" ph="{...}" />
+                <marker date="1546455630170" expanded="true" signature="595:689" ph="{...}" />
+                <marker date="1546455630170" expanded="true" signature="742:865" ph="/// タッチポジションを取得(エディタと実機を考慮) ... " />
+                <marker date="1546455630170" expanded="true" signature="910:1383" ph="{...}" />
+                <marker date="1546455630170" expanded="true" signature="950:1079" ph="{...}" />
+                <marker date="1546455630170" expanded="true" signature="1092:1348" ph="{...}" />
+                <marker date="1546455630170" expanded="true" signature="1389:1561" ph="/// タッチワールドポジションを取得(エディタと実機を考慮) ... " />
+                <marker date="1546455630170" expanded="true" signature="1624:1698" ph="{...}" />
+                <marker date="1546455630170" expanded="true" signature="1702:1780" ph="/// タッチ情報。UnityEngine.TouchPhase に None の情報を追加拡張。 ... " />
+                <marker date="1546455630170" expanded="true" signature="1802:2146" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -81,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ToMatHelperManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="867">
-              <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
               <folding>
                 <marker date="1546395555481" expanded="true" signature="6:47" ph="..." />
                 <marker date="1546395555481" expanded="true" signature="49:123" ph="/// WebCamTextureToMatHelperの初期化・破棄時イベントを実行する ... " />
@@ -364,6 +387,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ToMatHelperManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/imgproc/Imgproc.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Printer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TouchManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F2E6809A-CB14-476A-81F3-99AEB800F8F2/f2/e780b620/AsyncVoidMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -371,9 +395,10 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/mcs.rsp" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Face.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ToMatHelperManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TouchManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Printer.cs" />
       </list>
     </option>
@@ -457,12 +482,12 @@
       <workItem from="1546020948641" duration="112000" />
       <workItem from="1546021135431" duration="82000" />
       <workItem from="1546021557032" duration="22166000" />
-      <workItem from="1546299906234" duration="14582000" />
+      <workItem from="1546299906234" duration="20007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40188000" />
+    <option name="totallyTimeSpent" value="45613000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1451,7 +1476,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ToMatHelperManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
-          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
           <folding>
             <marker date="1546395555481" expanded="true" signature="6:47" ph="..." />
             <marker date="1546395555481" expanded="true" signature="49:123" ph="/// WebCamTextureToMatHelperの初期化・破棄時イベントを実行する ... " />
@@ -1471,52 +1496,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="70">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding>
-            <marker date="1546395818455" expanded="false" signature="6:142" ph="..." />
-            <marker date="1546395818455" expanded="true" signature="144:219" ph="///  ... " />
-            <marker date="1546395818455" expanded="true" signature="263:2315" ph="{...}" />
-            <marker date="1546395818455" expanded="true" signature="568:754" ph="{...}" />
-            <marker date="1546395818455" expanded="true" signature="586:637" ph="{...}" />
-            <marker date="1546395818455" expanded="true" signature="665:748" ph="{...}" />
-            <marker date="1546395818455" expanded="true" signature="880:2313" ph="{...}" />
-            <marker date="1546395818455" expanded="true" signature="1367:2307" ph="{...}" />
-            <marker date="1546395818455" expanded="true" signature="1390:1567" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
-            <marker date="1546395818455" expanded="true" signature="2007:2082" ph="{...}" />
+            <marker date="1546398740692" expanded="false" signature="6:142" ph="..." />
+            <marker date="1546398740692" expanded="true" signature="144:219" ph="///  ... " />
+            <marker date="1546398740692" expanded="true" signature="263:2343" ph="{...}" />
+            <marker date="1546398740692" expanded="true" signature="575:768" ph="{...}" />
+            <marker date="1546398740692" expanded="true" signature="593:651" ph="{...}" />
+            <marker date="1546398740692" expanded="true" signature="679:762" ph="{...}" />
+            <marker date="1546398740692" expanded="true" signature="901:2341" ph="{...}" />
+            <marker date="1546398740692" expanded="true" signature="1395:2335" ph="{...}" />
+            <marker date="1546398740692" expanded="true" signature="1418:1595" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
+            <marker date="1546398740692" expanded="true" signature="2035:2110" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TouchManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <marker date="1546455630170" expanded="true" signature="52:1700" ph="{...}" />
+            <marker date="1546455630170" expanded="true" signature="110:222" ph="/// タッチ情報を取得(エディタと実機を考慮) ... " />
+            <marker date="1546455630170" expanded="true" signature="261:736" ph="{...}" />
+            <marker date="1546455630170" expanded="true" signature="301:534" ph="{...}" />
+            <marker date="1546455630170" expanded="true" signature="547:699" ph="{...}" />
+            <marker date="1546455630170" expanded="true" signature="595:689" ph="{...}" />
+            <marker date="1546455630170" expanded="true" signature="742:865" ph="/// タッチポジションを取得(エディタと実機を考慮) ... " />
+            <marker date="1546455630170" expanded="true" signature="910:1383" ph="{...}" />
+            <marker date="1546455630170" expanded="true" signature="950:1079" ph="{...}" />
+            <marker date="1546455630170" expanded="true" signature="1092:1348" ph="{...}" />
+            <marker date="1546455630170" expanded="true" signature="1389:1561" ph="/// タッチワールドポジションを取得(エディタと実機を考慮) ... " />
+            <marker date="1546455630170" expanded="true" signature="1624:1698" ph="{...}" />
+            <marker date="1546455630170" expanded="true" signature="1702:1780" ph="/// タッチ情報。UnityEngine.TouchPhase に None の情報を追加拡張。 ... " />
+            <marker date="1546455630170" expanded="true" signature="1802:2146" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FaceDetector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="671">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
-            <marker date="1546385983527" expanded="false" signature="6:243" ph="..." />
-            <marker date="1546385983527" expanded="true" signature="286:1877" ph="{...}" />
-            <marker date="1546385983527" expanded="true" signature="564:692" ph="{...}" />
-            <marker date="1546385983527" expanded="true" signature="744:1374" ph="{...}" />
-            <marker date="1546385983527" expanded="true" signature="778:1371" ph="{...}" />
-            <marker date="1546385983527" expanded="true" signature="1042:1204" ph="{...}" />
-            <marker date="1546385983527" expanded="true" signature="1274:1346" ph="{...}" />
-            <marker date="1546385983527" expanded="true" signature="1468:1875" ph="{...}" />
+            <marker date="1546456174445" expanded="false" signature="6:243" ph="..." />
+            <marker date="1546456174445" expanded="true" signature="286:1877" ph="{...}" />
+            <marker date="1546456174445" expanded="true" signature="564:692" ph="{...}" />
+            <marker date="1546456174445" expanded="true" signature="744:1374" ph="{...}" />
+            <marker date="1546456174445" expanded="true" signature="778:1371" ph="{...}" />
+            <marker date="1546456174445" expanded="true" signature="1042:1204" ph="{...}" />
+            <marker date="1546456174445" expanded="true" signature="1274:1346" ph="{...}" />
+            <marker date="1546456174445" expanded="true" signature="1468:1875" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Printer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        <state relative-caret-position="287">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <marker date="1546398253100" expanded="false" signature="6:298" ph="..." />
-            <marker date="1546398253100" expanded="true" signature="337:1774" ph="{...}" />
-            <marker date="1546398253100" expanded="true" signature="567:897" ph="{...}" />
-            <marker date="1546398253100" expanded="true" signature="915:1435" ph="{...}" />
-            <marker date="1546398253100" expanded="true" signature="1304:1320" ph="{...}" />
-            <marker date="1546398253100" expanded="true" signature="1484:1772" ph="{...}" />
-            <marker date="1546398253100" expanded="true" signature="1557:1715" ph="{...}" />
+            <marker date="1546457585932" expanded="false" signature="6:298" ph="..." />
+            <marker date="1546457585932" expanded="true" signature="337:1897" ph="{...}" />
+            <marker date="1546457585932" expanded="true" signature="544:874" ph="{...}" />
+            <marker date="1546457585932" expanded="true" signature="878:918" ph="/* タッチされたらFaceAPIに送る ... */" />
+            <marker date="1546457585932" expanded="true" signature="934:1342" ph="{...}" />
+            <marker date="1546457585932" expanded="true" signature="1218:1243" ph="{...}" />
+            <marker date="1546457585932" expanded="true" signature="1365:1597" ph="{...}" />
+            <marker date="1546457585932" expanded="true" signature="1646:1895" ph="{...}" />
+            <marker date="1546457585932" expanded="true" signature="1719:1877" ph="{...}" />
           </folding>
         </state>
       </provider>

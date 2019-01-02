@@ -17,7 +17,6 @@ public class Printer : MonoBehaviour
 	FaceDetector _detector;
 	Mat _webcamMat, _detected;
 	Texture2D _quadTex;
-	public byte[] _bytes;
 	bool a;
 	
 	void Start()
@@ -32,6 +31,8 @@ public class Printer : MonoBehaviour
 		_toMatHelper.Initialize();
 	}
 	
+	//カメラ映像を処理してQuadに映す
+	//タッチされたらFaceAPIに送る
 	void Update() 
 	{
 		if (!_toMatHelperMgr.IsInitialized) return;	//_quadTexが設定されるまで待つ
@@ -40,21 +41,26 @@ public class Printer : MonoBehaviour
 		_webcamMat = _toMatHelper.GetMat();
 		_detected = _detector.Detect(_webcamMat);
 
-		_detected = GetRedMat(_detected);
-        
-		fastMatToTexture2D(_detected, _toMatHelperMgr.QuadTex);
-		if (_detector._faces.toArray().Length == 0 && !a) {
-			return;
+		if (TouchManager.GetTouch() == TouchInfo.Began) {
+			SendToFaceApi();
 		}
+		
+		_detected = CvtToRed(_detected);
+		fastMatToTexture2D(_detected, _toMatHelperMgr.QuadTex);
+	}
 
-		if (a) return;
-		a = true;
+	void SendToFaceApi()
+	{
+		if (_detector._faces.toArray().Length <= 0) return;
+		
+		fastMatToTexture2D(_detected, _toMatHelperMgr.QuadTex);
+		//テクスチャをバイト配列にしてFaceAPIに送る
 		var bytes = _toMatHelperMgr.QuadTex.EncodeToJPG();
 		_apiManager.GetAge(bytes);
 	}
-
+	
 	//Rチャンネル以外0にする
-	static Mat GetRedMat(Mat rgba)
+	static Mat CvtToRed(Mat rgba)
 	{
 		using (var zeroMat = new Mat(rgba.size(), CV_8UC1, new Scalar(0))) {
 			var matList = new List<Mat>();
@@ -63,7 +69,6 @@ public class Printer : MonoBehaviour
 			matList[2] = zeroMat;
 			merge(matList, rgba);
 		}
-//		matList.GetEnumerator().Dispose();
 		return rgba;
 	}
 }

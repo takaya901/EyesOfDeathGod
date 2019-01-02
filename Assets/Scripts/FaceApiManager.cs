@@ -16,10 +16,10 @@ public class FaceApiManager : MonoBehaviour
     const string URI_BASE =
         "https://eastasia.api.cognitive.microsoft.com/face/v1.0/detect?returnFaceId=true&returnFaceLandmarks=false";
 
-    public void GetAge(byte[] bytes)
+    public void GetAge(byte[] textureBytes)
     {
         try{
-            MakeAnalysisRequest(bytes);
+            MakeAnalysisRequest(textureBytes);
         }
         catch (Exception e){
             Debug.Log("\n" + e.Message + "\nPress Enter to exit...\n");
@@ -27,7 +27,7 @@ public class FaceApiManager : MonoBehaviour
     }
 
     // Gets the analysis of the specified image by using the Face REST API.
-    async void MakeAnalysisRequest(byte[] bytes)
+    async void MakeAnalysisRequest(byte[] textureBytes)
     {
         var client = new HttpClient();
 
@@ -40,7 +40,7 @@ public class FaceApiManager : MonoBehaviour
         // Assemble the URI for the REST API Call.
         string uri = URI_BASE + "?" + requestParameters;
 
-        using (var content = new ByteArrayContent(bytes))
+        using (var content = new ByteArrayContent(textureBytes))
         {
             // This example uses content type "application/octet-stream".
             // The other content types you can use are "application/json"
