@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+//https://qiita.com/tempura/items/4a5482ff6247ec8873df
 public static class TouchManager
 {
     static Vector3 _touchPosition = Vector3.zero;

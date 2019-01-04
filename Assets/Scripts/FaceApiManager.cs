@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -10,11 +11,10 @@ using static OpenCVForUnity.Imgcodecs;
 /// </summary>
 public class FaceApiManager : MonoBehaviour
 {
-    public Face Face { get; private set; }
+    public List<Face> Faces { get; private set; }
     
     const string SUBSCRIPTION_KEY = "b3560fbf21bb4f1c9e4cc1e8058e27a6";
-    const string URI_BASE =
-        "https://eastasia.api.cognitive.microsoft.com/face/v1.0/detect?returnFaceId=true&returnFaceLandmarks=false";
+    const string URI_BASE = "https://eastasia.api.cognitive.microsoft.com/face/v1.0/detect";
 
     public void GetAge(byte[] textureBytes)
     {
@@ -48,22 +48,21 @@ public class FaceApiManager : MonoBehaviour
             content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
 
             var response = await client.PostAsync(uri, content);
+            var json = await response.Content.ReadAsStringAsync();
 
-            string contentString = await response.Content.ReadAsStringAsync();
-
-            //外側の[]を削除
-            contentString = contentString.Substring(1, contentString.Length - 2);
-            Debug.Log(contentString);
-            if (string.IsNullOrEmpty(contentString)) {
+//            //外側の[]を削除
+//            contentString = contentString.Substring(1, contentString.Length - 2);
+            Debug.Log(json);
+            if (string.IsNullOrEmpty(json)) {
                 Debug.Log("empty");
                 return;
             }
         
-            string json = contentString;
-            Face = JsonUtility.FromJson<Face>(json);
+//            string json = contentString;
+            Faces = JsonHelper.ListFromJson<Face>(json);
 
-            Debug.Log("face id " + Face.faceId);
-            Debug.Log("face age " + Face.faceAttributes.age);
+            Debug.Log("face id " + Faces[0].faceId);
+            Debug.Log("face age " + Faces[0].faceAttributes.age);
         }
     }
 }

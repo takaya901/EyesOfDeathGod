@@ -41,8 +41,8 @@ public class FaceDetector : MonoBehaviour
 			}
 
 			//頭の上に年齢を表示
-			if (_apiManager.Face != null && rects.Length > 0) {
-				webcamMat = PutAgeOnHead(webcamMat, _apiManager.Face, rects);
+			if (_apiManager.Faces != null && rects.Length > 0) {
+				webcamMat = PutAgeOnHead(webcamMat, _apiManager.Faces[0], rects);
 			}
 			return webcamMat;
 		}

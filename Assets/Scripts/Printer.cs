@@ -17,7 +17,6 @@ public class Printer : MonoBehaviour
 	FaceDetector _detector;
 	Mat _webcamMat, _detected;
 	Texture2D _quadTex;
-	bool a;
 	
 	void Start()
 	{
