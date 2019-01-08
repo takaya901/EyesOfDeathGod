@@ -4,7 +4,7 @@ using UnityEngine;
 /// <summary>
 /// WebCamTextureToMatHelperの初期化・破棄時イベントを実行する
 /// </summary>
-public class ToMatHelperManager : MonoBehaviour
+public class WebCamTextureToMatHelperManager : MonoBehaviour
 {
     public Texture2D QuadTex { get; private set; }
     public bool IsInitialized { get; private set; }

@@ -5,6 +5,9 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="CheckPlaymodeState.cs" t="Include" />
+        </e>
         <e p="OpenCVForUnity" t="Include">
           <e p="Editor" t="Include">
             <e p="OpenCVForUnityIOSBuildPostprocessor.cs" t="Include" />
@@ -558,8 +561,8 @@
           <e p="FaceDetector.cs" t="Include" />
           <e p="JsonHelper.cs" t="Include" />
           <e p="Printer.cs" t="Include" />
-          <e p="ToMatHelperManager.cs" t="Include" />
           <e p="TouchManager.cs" t="Include" />
+          <e p="WebCamTextureToMatHelperManager.cs" t="Include" />
         </e>
         <e p="StreamingAssets" t="Include">
           <e p="haarcascade_frontalface_alt.xml" t="Include" />

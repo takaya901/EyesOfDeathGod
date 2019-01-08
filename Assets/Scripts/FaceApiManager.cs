@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using OpenCVForUnity;
 using static OpenCVForUnity.Imgcodecs;
 
 /// <summary>
@@ -11,7 +12,8 @@ using static OpenCVForUnity.Imgcodecs;
 /// </summary>
 public class FaceApiManager : MonoBehaviour
 {
-    public List<Face> Faces { get; private set; }
+    List<Face> _faces;
+    public IReadOnlyList<Face> Faces { get; private set; }    //外部参照用
     
     const string SUBSCRIPTION_KEY = "b3560fbf21bb4f1c9e4cc1e8058e27a6";
     const string URI_BASE = "https://eastasia.api.cognitive.microsoft.com/face/v1.0/detect";
@@ -50,19 +52,26 @@ public class FaceApiManager : MonoBehaviour
             var response = await client.PostAsync(uri, content);
             var json = await response.Content.ReadAsStringAsync();
 
-//            //外側の[]を削除
-//            contentString = contentString.Substring(1, contentString.Length - 2);
             Debug.Log(json);
             if (string.IsNullOrEmpty(json)) {
                 Debug.Log("empty");
                 return;
             }
-        
-//            string json = contentString;
-            Faces = JsonHelper.ListFromJson<Face>(json);
+            
+            _faces = JsonHelper.ListFromJson<Face>(json);
+            Faces = _faces.AsReadOnly();
+            CalcCenterPoints();
 
-            Debug.Log("face id " + Faces[0].faceId);
             Debug.Log("face age " + Faces[0].faceAttributes.age);
+        }
+    }
+
+    //全矩形の重心を求めてFaceクラスにセットする
+    void CalcCenterPoints()
+    {
+        foreach (var face in _faces) {
+            var rect = face.faceRectangle;
+            rect.center = new Vector2(rect.left + rect.width / 2, rect.top + rect.height / 2);
         }
     }
 }

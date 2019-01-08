@@ -1,17 +1,21 @@
-﻿using System.Collections.Generic;
+﻿using System.Linq;
 using UnityEngine;
 using OpenCVForUnity;
-using OpenCVForUnityExample;
 using static OpenCVForUnity.Core;
 using static OpenCVForUnity.Imgproc;
 using static OpenCVForUnity.Utils;
 using Rect = OpenCVForUnity.Rect;
+using Text = UnityEngine.UI.Text;
 
 public class FaceDetector : MonoBehaviour
 {
+	[SerializeField] Text _text;
 	FaceApiManager _apiManager;
     CascadeClassifier _cascade = new CascadeClassifier();
-    public MatOfRect _faces = new MatOfRect();
+    MatOfRect _faces = new MatOfRect();
+    
+    /// <summary>顔を検出したかどうか</summary>
+    public bool IsDetected => !_faces.empty();
 
     static readonly Scalar COLOR = new Scalar(255, 255, 255);
     const int FONT_SCALE = 3;
@@ -23,40 +27,45 @@ public class FaceDetector : MonoBehaviour
         _cascade.load(getFilePath("haarcascade_frontalface_alt.xml"));
     }
 
-	//カメラ映像から顔を検出する
+	//カメラ映像から顔を検出し，その上に年齢を表示する
 	public Mat Detect(Mat webcamMat)
 	{
-		using(var gray = new Mat()) 
-		{
+		using (var gray = new Mat()) {
 			cvtColor(webcamMat, gray, COLOR_RGBA2GRAY);
 			equalizeHist(gray, gray);
-			_cascade.detectMultiScale(gray, _faces, 1.1, 2, 2, new Size(gray.cols() * 0.2, gray.rows() * 0.2), new Size());
-			
-			var rects = _faces.toArray();
-			foreach (var face in rects) {
-				rectangle(webcamMat, 
-					new Point(face.x, face.y), 
-					new Point(face.x + face.width, face.y + face.height), 
-					new Scalar(255, 0, 0, 255), 2);
-			}
-
-			//頭の上に年齢を表示
-			if (_apiManager.Faces != null && rects.Length > 0) {
-				webcamMat = PutAgeOnHead(webcamMat, _apiManager.Faces[0], rects);
-			}
-			return webcamMat;
+			var minFaceSize = new Size(gray.cols() * 0.2, gray.rows() * 0.2);
+			_cascade.detectMultiScale(gray, _faces, 1.1, 2, 2, minFaceSize, new Size());
 		}
+
+		var rects = _faces.toArray();
+		_text.text = rects.Length + " faces";
+		
+		foreach (var rect in rects) {
+//			rectangle(webcamMat, 
+//				new Point(rect.x, rect.y), 
+//				new Point(rect.x + rect.width, rect.y + rect.height), 
+//				new Scalar(255, 0, 0, 255), 2);
+
+			if (!(_apiManager.Faces?.Count > 0)) return webcamMat;
+			
+			//APIの検出矩形の中から一番近い物を探す
+			var center = new Vector2(rect.x + rect.width / 2, rect.y + rect.height / 2);
+			var age = _apiManager.Faces.OrderBy(face => (center - face.faceRectangle.center).SqrMagnitude()).First().faceAttributes.age;
+			webcamMat = PutAgeOnHead(webcamMat, rect, age);
+		}
+		
+		return webcamMat;
 	}
 
 	//頭の上に年齢を表示する
-	static Mat PutAgeOnHead(Mat webcamMat, Face face, IReadOnlyList<Rect> rects)
+	static Mat PutAgeOnHead(Mat webcamMat, Rect rect, int age)
 	{
-		var age = face.faceAttributes.age.ToString("d");
-		var textSize = getTextSize(age, FONT_HERSHEY_SCRIPT_COMPLEX, FONT_SCALE, THICKNESS, null);
-		var xOrg = rects[0].x + rects[0].width / 2 - textSize.width / 2;	//年齢が頭上の中心に出るよう調整
-		var org = new Point(xOrg, rects[0].y);
+		var ageText = age.ToString();
+		var textSize = getTextSize(ageText, FONT_HERSHEY_SCRIPT_COMPLEX, FONT_SCALE, THICKNESS, null);
+		var xOrg = rect.x + rect.width / 2 - textSize.width / 2;	//年齢が頭上の中心に出るようx座標を調整
+		var org = new Point(xOrg, rect.y);
 		
-		putText(webcamMat, age, org, FONT_HERSHEY_SCRIPT_COMPLEX, FONT_SCALE, COLOR, THICKNESS, Imgproc.LINE_AA);
+		putText(webcamMat, ageText, org, FONT_HERSHEY_SCRIPT_COMPLEX, FONT_SCALE, COLOR, THICKNESS, Imgproc.LINE_AA);
 		return webcamMat;
 	}
 }

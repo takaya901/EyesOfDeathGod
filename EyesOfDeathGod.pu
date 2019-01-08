@@ -1,0 +1,18 @@
+@startuml EyesOfDeathGod
+class Printer {
+	Texture2D _quadTex
+    void methods()
+}
+
+class FaceDetector {
+    Mat Detect(webcamMat)
+}
+
+class FaceApiManager {
+    IReadOnlyList<Face> Faces
+    void GetAge(byte[])
+}
+
+Printer --> FaceDetector
+Printer --> FaceApiManager
+@enduml

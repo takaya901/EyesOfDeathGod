@@ -1,4 +1,6 @@
 ﻿using System;
+using OpenCVForUnity;
+using UnityEngine;
 
 [Serializable]
 public class Face
@@ -11,6 +13,7 @@ public class Face
 [Serializable]
 public class FaceRectangle
 {
+	public Vector2 center;	//Pointだと2点間の距離を取るメソッドがないため
 	public int top;
 	public int left;
 	public int width;
