@@ -32,10 +32,7 @@ public class FaceApiManager : MonoBehaviour
     async void MakeAnalysisRequest(byte[] textureBytes)
     {
         var client = new HttpClient();
-
-        // Request headers.
         client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", SUBSCRIPTION_KEY);
-        
         string requestParameters = "returnFaceId=true&returnFaceLandmarks=false" +
                                    "&returnFaceAttributes=age";
 
