@@ -14,14 +14,15 @@ using Text = UnityEngine.UI.Text;
 
 public class Printer : MonoBehaviour
 {
-	[SerializeField] Text _text;
+	[SerializeField] Text _touchAgainText;
 	WebCamTextureToMatHelper _toMatHelper;
 	WebCamTextureToMatHelperManager _toMatHelperMgr;
 	FaceApiManager _apiManager;
 	FaceDetector _detector;
 	Mat _detected;
+	ZeroMat _zeroMat;
 	
-	void Start()
+	IEnumerator Start()
 	{
 		Input.backButtonLeavesApp = true;
 		Screen.sleepTimeout = SleepTimeout.NeverSleep;
@@ -30,14 +31,25 @@ public class Printer : MonoBehaviour
 		_apiManager = GetComponent<FaceApiManager>();
 		_toMatHelperMgr = GetComponent<WebCamTextureToMatHelperManager>();
 		_toMatHelper = GetComponent<WebCamTextureToMatHelper>();
+		
+		//カメラ等の初期化完了後，画像サイズを取得する
 		_toMatHelper.Initialize();
+		yield return WaitInitialization(); 
+		var imgSize = new Size(_toMatHelper.GetWidth(), _toMatHelper.GetHeight());
+		_zeroMat = new ZeroMat(imgSize);
 	}
 	
-	//カメラ映像を処理してQuadに映す
+	IEnumerator WaitInitialization()
+	{
+		while (!_toMatHelperMgr.IsInitialized) {
+			yield return null;
+		}
+	}
+	
+	//カメラ映像を赤くしてQuadに映す
 	//タッチされたらFaceAPIに送る
 	void Update() 
 	{
-		if (!_toMatHelperMgr.IsInitialized) return;	//_quadTexが設定されるまで待つ
 		if (!_toMatHelper.IsPlaying() || !_toMatHelper.DidUpdateThisFrame()) return;
 
 		_detected = _detector.Detect(_toMatHelper.GetMat());
@@ -69,21 +81,30 @@ public class Printer : MonoBehaviour
 
 	IEnumerator ShowTextCoroutine()
 	{
-		_text.gameObject.SetActive(true);
+		_touchAgainText.gameObject.SetActive(true);
 		yield return new WaitForSeconds(2);
-		_text.gameObject.SetActive(false);
+		_touchAgainText.gameObject.SetActive(false);
 	}
 	
 	//G・Bチャンネルを0にする
-	static Mat CvtToRed(Mat rgba)
+	Mat CvtToRed(Mat rgba)
 	{
-		using (var zeroMat = new Mat(rgba.size(), CV_8UC1, new Scalar(0))) {
-			var matList = new List<Mat>();
-			split(rgba, matList);
-			matList[1] = zeroMat;	//GとBチャンネルを0で置き換える
-			matList[2] = zeroMat;
-			merge(matList, rgba);
-		}
+		var matList = new List<Mat>();
+		split(rgba, matList);
+		matList[1] = _zeroMat.Instance;	//GとBチャンネルを0で置き換える
+		matList[2] = _zeroMat.Instance;
+		merge(matList, rgba);
 		return rgba;
+	}
+	
+	/// <summary>start()内でstatic readonlyの初期化ができないためこのクラスのプロパティとして設定</summary>
+	class ZeroMat
+	{
+		public Mat Instance { get; }
+		
+		public ZeroMat(Size imgSize)
+		{
+			Instance = new Mat(imgSize, CV_8UC1, new Scalar(0));
+		}
 	}
 }

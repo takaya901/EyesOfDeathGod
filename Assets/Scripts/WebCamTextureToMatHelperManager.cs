@@ -1,4 +1,5 @@
-﻿using OpenCVForUnityExample;
+﻿using OpenCVForUnity;
+using OpenCVForUnityExample;
 using UnityEngine;
 
 /// <summary>
@@ -7,6 +8,7 @@ using UnityEngine;
 public class WebCamTextureToMatHelperManager : MonoBehaviour
 {
     public Texture2D QuadTex { get; private set; }
+    /// <summary>初期化時イベントが完了したか</summary>
     public bool IsInitialized { get; private set; }
 
     WebCamTextureToMatHelper _toMatHelper;
@@ -50,6 +52,7 @@ public class WebCamTextureToMatHelperManager : MonoBehaviour
         var quadHeight = Camera.main.orthographicSize * 2;
         var quadWidth = quadHeight * Camera.main.aspect;
         gameObject.transform.localScale = new Vector3(quadWidth, quadHeight, 1);
+        
         IsInitialized = true;
     }
 

@@ -1,7 +1,8 @@
 @startuml EyesOfDeathGod
 class Printer {
 	Texture2D _quadTex
-    void methods()
+    void SendToFaceApi()
+    void CvtToRed()
 }
 
 class FaceDetector {

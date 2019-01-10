@@ -1,5 +1,4 @@
 ﻿using System;
-using OpenCVForUnity;
 using UnityEngine;
 
 [Serializable]
