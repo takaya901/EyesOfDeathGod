@@ -14,7 +14,7 @@ using Text = UnityEngine.UI.Text;
 
 public class Printer : MonoBehaviour
 {
-	[SerializeField] Text _touchAgainText;
+	[SerializeField] Text _noFaceText;
 	WebCamTextureToMatHelper _toMatHelper;
 	WebCamTextureToMatHelperManager _toMatHelperMgr;
 	FaceApiManager _apiManager;
@@ -81,9 +81,9 @@ public class Printer : MonoBehaviour
 
 	IEnumerator ShowTextCoroutine()
 	{
-		_touchAgainText.gameObject.SetActive(true);
+		_noFaceText.gameObject.SetActive(true);
 		yield return new WaitForSeconds(2);
-		_touchAgainText.gameObject.SetActive(false);
+		_noFaceText.gameObject.SetActive(false);
 	}
 	
 	//G・Bチャンネルを0にする

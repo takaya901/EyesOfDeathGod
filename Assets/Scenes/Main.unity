@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06e787b8644014018a74d57ee682eb52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _touchAgainText: {fileID: 1697777195}
+  _noFaceText: {fileID: 1697777195}
 --- !u!114 &197367955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -695,7 +695,7 @@ GameObject:
   - component: {fileID: 1697777196}
   - component: {fileID: 1697777195}
   m_Layer: 5
-  m_Name: Touch Again Text
+  m_Name: No Face Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -753,7 +753,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Touch again
+  m_Text: No Face
 --- !u!222 &1697777196
 CanvasRenderer:
   m_ObjectHideFlags: 0
