@@ -14,13 +14,14 @@ using Text = UnityEngine.UI.Text;
 
 public class Printer : MonoBehaviour
 {
-	[SerializeField] Text _noFaceText;
+	[SerializeField] Text _errMsg;
 	WebCamTextureToMatHelper _toMatHelper;
 	WebCamTextureToMatHelperManager _toMatHelperMgr;
 	FaceApiManager _apiManager;
 	FaceDetector _detector;
 	Mat _detected;
 	ZeroMat _zeroMat;
+	const string NO_FACE_MSG = "No Face";
 	
 	IEnumerator Start()
 	{
@@ -69,7 +70,7 @@ public class Printer : MonoBehaviour
 	{
 		//顔が検出されていなければ送らない
 		if (!_detector.IsDetected) {
-			StartCoroutine(ShowTextCoroutine());
+			StartCoroutine(ShowErrMsgCoroutine());
 			return;
 		}
 		
@@ -79,11 +80,12 @@ public class Printer : MonoBehaviour
 		_apiManager.GetAge(bytes);
 	}
 
-	IEnumerator ShowTextCoroutine()
+	IEnumerator ShowErrMsgCoroutine()
 	{
-		_noFaceText.gameObject.SetActive(true);
+		_errMsg.text = NO_FACE_MSG;
+		_errMsg.gameObject.SetActive(true);
 		yield return new WaitForSeconds(2);
-		_noFaceText.gameObject.SetActive(false);
+		_errMsg.gameObject.SetActive(false);
 	}
 	
 	//G・Bチャンネルを0にする

@@ -1,31 +1,26 @@
 ﻿using UnityEngine;
-using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using OpenCVForUnity;
-using static OpenCVForUnity.Imgcodecs;
+using Text = UnityEngine.UI.Text;
 
 /// <summary>
 /// Printerからテクスチャのバイト配列を受け，FaceAPIに送って年齢を取得する
 /// </summary>
 public class FaceApiManager : MonoBehaviour
 {
+    [SerializeField] Text _errMsg;
     List<Face> _faces;
     public IReadOnlyList<Face> Faces { get; private set; }    //外部参照用
     
     const string SUBSCRIPTION_KEY = "b3560fbf21bb4f1c9e4cc1e8058e27a6";
     const string URI_BASE = "https://eastasia.api.cognitive.microsoft.com/face/v1.0/detect";
+    const string NO_INTERNET_MSG = "No Internet";
 
     public void GetAge(byte[] textureBytes)
     {
-        try{
-            MakeAnalysisRequest(textureBytes);
-        }
-        catch (Exception e){
-            Debug.Log("\n" + e.Message + "\nPress Enter to exit...\n");
-        }
+        MakeAnalysisRequest(textureBytes);
     }
 
     // Gets the analysis of the specified image by using the Face REST API.
@@ -46,8 +41,14 @@ public class FaceApiManager : MonoBehaviour
             // and "multipart/form-data".
             content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
 
-            var response = await client.PostAsync(uri, content);
-            var json = await response.Content.ReadAsStringAsync();
+            string json = null;
+            try {
+                var response = await client.PostAsync(uri, content);
+                json = await response.Content.ReadAsStringAsync();
+            }
+            catch (HttpRequestException e) {
+                StartCoroutine(ShowErrMsgCoroutine());
+            }
 
             Debug.Log(json);
             if (string.IsNullOrEmpty(json)) {
@@ -58,9 +59,15 @@ public class FaceApiManager : MonoBehaviour
             _faces = JsonHelper.ListFromJson<Face>(json);
             Faces = _faces.AsReadOnly();
             CalcCenterPoints();
-
-            Debug.Log("face age " + Faces[0].faceAttributes.age);
         }
+    }
+    
+    IEnumerator ShowErrMsgCoroutine()
+    {
+        _errMsg.text = NO_INTERNET_MSG;
+        _errMsg.gameObject.SetActive(true);
+        yield return new WaitForSeconds(2);
+        _errMsg.gameObject.SetActive(false);
     }
 
     //全矩形の重心を求めてFaceクラスにセットする
