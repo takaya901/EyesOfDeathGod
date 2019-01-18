@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dda8b18f-0a95-42da-9f48-24c95c706fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EyesOfDeathGod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Printer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Printer.cs" afterDir="false" />
-    </list>
+    <list default="true" id="dda8b18f-0a95-42da-9f48-24c95c706fed" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +32,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+            <state relative-caret-position="-73">
+              <caret column="6" selection-end-line="80" selection-end-column="1" />
               <folding>
-                <marker date="1547810613212" expanded="true" signature="6:264" ph="..." />
-                <marker date="1547810613212" expanded="true" signature="300:375" ph="/// Printerからテクスチャのバイト配列を受け，FaceAPIに送って年齢を取得する ... " />
-                <marker date="1547810613212" expanded="true" signature="419:2867" ph="{...}" />
-                <marker date="1547810613212" expanded="true" signature="814:869" ph="{...}" />
-                <marker date="1547810613212" expanded="true" signature="1002:2379" ph="{...}" />
-                <marker date="1547810613212" expanded="true" signature="1458:2373" ph="{...}" />
-                <marker date="1547810613212" expanded="true" signature="1481:1658" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
-                <marker date="1547810613212" expanded="true" signature="1804:1955" ph="{...}" />
-                <marker date="1547810613212" expanded="true" signature="1999:2069" ph="{...}" />
-                <marker date="1547810613212" expanded="true" signature="2144:2219" ph="{...}" />
-                <marker date="1547810613212" expanded="true" signature="2422:2607" ph="{...}" />
-                <marker date="1547810613212" expanded="true" signature="2666:2865" ph="{...}" />
-                <marker date="1547810613212" expanded="true" signature="2710:2859" ph="{...}" />
+                <marker date="1547810623603" expanded="false" signature="6:132" ph="..." />
+                <marker date="1547810623603" expanded="true" signature="168:243" ph="/// Printerからテクスチャのバイト配列を受け，FaceAPIに送って年齢を取得する ... " />
+                <marker date="1547810623603" expanded="true" signature="287:2735" ph="{...}" />
+                <marker date="1547810623603" expanded="true" signature="682:737" ph="{...}" />
+                <marker date="1547810623603" expanded="true" signature="870:2247" ph="{...}" />
+                <marker date="1547810623603" expanded="true" signature="1326:2241" ph="{...}" />
+                <marker date="1547810623603" expanded="true" signature="1349:1526" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
+                <marker date="1547810623603" expanded="true" signature="1672:1823" ph="{...}" />
+                <marker date="1547810623603" expanded="true" signature="1867:1937" ph="{...}" />
+                <marker date="1547810623603" expanded="true" signature="2012:2087" ph="{...}" />
+                <marker date="1547810623603" expanded="true" signature="2290:2475" ph="{...}" />
+                <marker date="1547810623603" expanded="true" signature="2534:2733" ph="{...}" />
+                <marker date="1547810623603" expanded="true" signature="2578:2727" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -60,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Printer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+            <state relative-caret-position="-12">
+              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
               <folding>
                 <marker date="1547810213463" expanded="false" signature="6:380" ph="..." />
                 <marker date="1547810213463" expanded="true" signature="418:2742" ph="{...}" />
@@ -278,12 +274,12 @@
       <workItem from="1546937278961" duration="6536000" />
       <workItem from="1546946360865" duration="298000" />
       <workItem from="1546946877898" duration="14021000" />
-      <workItem from="1547806550491" duration="3503000" />
+      <workItem from="1547806550491" duration="3712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90494000" />
+    <option name="totallyTimeSpent" value="90703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1477,8 +1473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Printer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+        <state relative-caret-position="-12">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
           <folding>
             <marker date="1547810213463" expanded="false" signature="6:380" ph="..." />
             <marker date="1547810213463" expanded="true" signature="418:2742" ph="{...}" />
@@ -1500,22 +1496,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FaceApiManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+        <state relative-caret-position="-73">
+          <caret column="6" selection-end-line="80" selection-end-column="1" />
           <folding>
-            <marker date="1547810613212" expanded="true" signature="6:264" ph="..." />
-            <marker date="1547810613212" expanded="true" signature="300:375" ph="/// Printerからテクスチャのバイト配列を受け，FaceAPIに送って年齢を取得する ... " />
-            <marker date="1547810613212" expanded="true" signature="419:2867" ph="{...}" />
-            <marker date="1547810613212" expanded="true" signature="814:869" ph="{...}" />
-            <marker date="1547810613212" expanded="true" signature="1002:2379" ph="{...}" />
-            <marker date="1547810613212" expanded="true" signature="1458:2373" ph="{...}" />
-            <marker date="1547810613212" expanded="true" signature="1481:1658" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
-            <marker date="1547810613212" expanded="true" signature="1804:1955" ph="{...}" />
-            <marker date="1547810613212" expanded="true" signature="1999:2069" ph="{...}" />
-            <marker date="1547810613212" expanded="true" signature="2144:2219" ph="{...}" />
-            <marker date="1547810613212" expanded="true" signature="2422:2607" ph="{...}" />
-            <marker date="1547810613212" expanded="true" signature="2666:2865" ph="{...}" />
-            <marker date="1547810613212" expanded="true" signature="2710:2859" ph="{...}" />
+            <marker date="1547810623603" expanded="false" signature="6:132" ph="..." />
+            <marker date="1547810623603" expanded="true" signature="168:243" ph="/// Printerからテクスチャのバイト配列を受け，FaceAPIに送って年齢を取得する ... " />
+            <marker date="1547810623603" expanded="true" signature="287:2735" ph="{...}" />
+            <marker date="1547810623603" expanded="true" signature="682:737" ph="{...}" />
+            <marker date="1547810623603" expanded="true" signature="870:2247" ph="{...}" />
+            <marker date="1547810623603" expanded="true" signature="1326:2241" ph="{...}" />
+            <marker date="1547810623603" expanded="true" signature="1349:1526" ph="/* This example uses content type &quot;application/octet-stream&quot;. ... */" />
+            <marker date="1547810623603" expanded="true" signature="1672:1823" ph="{...}" />
+            <marker date="1547810623603" expanded="true" signature="1867:1937" ph="{...}" />
+            <marker date="1547810623603" expanded="true" signature="2012:2087" ph="{...}" />
+            <marker date="1547810623603" expanded="true" signature="2290:2475" ph="{...}" />
+            <marker date="1547810623603" expanded="true" signature="2534:2733" ph="{...}" />
+            <marker date="1547810623603" expanded="true" signature="2578:2727" ph="{...}" />
           </folding>
         </state>
       </provider>
