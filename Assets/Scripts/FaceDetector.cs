@@ -23,7 +23,8 @@ public class FaceDetector : MonoBehaviour
 	void Start ()
 	{
 		_apiManager = GetComponent<FaceApiManager>();
-        _cascade.load(getFilePath("haarcascade_frontalface_alt.xml"));
+		_cascade.load(getFilePath("haarcascade_frontalface_alt.xml"));
+//		_cascade.load(getFilePath("lbpcascade_frontalface.xml"));
     }
 
 	//カメラ映像から顔を検出し，その上に年齢を表示する

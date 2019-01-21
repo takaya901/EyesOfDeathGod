@@ -16,7 +16,7 @@ public class FaceApiManager : MonoBehaviour
     
     const string SUBSCRIPTION_KEY = "b3560fbf21bb4f1c9e4cc1e8058e27a6";
     const string URI_BASE = "https://eastasia.api.cognitive.microsoft.com/face/v1.0/detect";
-    const string NO_INTERNET_MSG = "No Internet";
+    const string NO_INTERNET_MSG = "No Internet Connection";
 
     public void GetAge(byte[] textureBytes)
     {

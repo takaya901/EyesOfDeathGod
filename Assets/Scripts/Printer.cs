@@ -1,20 +1,25 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using OpenCVForUnity;
 using OpenCVForUnityExample;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using static OpenCVForUnity.Core;
 using static OpenCVForUnity.CvType;
 using static OpenCVForUnity.Imgcodecs;
 using static OpenCVForUnity.Imgproc;
 using static OpenCVForUnity.Utils;
+using static TouchManager;
 using Text = UnityEngine.UI.Text;
 
 public class Printer : MonoBehaviour
 {
 	[SerializeField] Text _errMsg;
+	[SerializeField] Text _CameraSwitchBtn;
+	[SerializeField] Text _debugText;
 	WebCamTextureToMatHelper _toMatHelper;
 	WebCamTextureToMatHelperManager _toMatHelperMgr;
 	FaceApiManager _apiManager;
@@ -56,7 +61,7 @@ public class Printer : MonoBehaviour
 		_detected = _detector.Detect(_toMatHelper.GetMat());
 
 		//タッチされたら赤くする前のカメラ映像をFaceAPIに送る
-		if (TouchManager.GetTouch() == TouchInfo.Began) {
+		if (GetTouch() == TouchInfo.Began && !IsButtonTouched()) {
 			SendToFaceApi();
 		}
 		
@@ -78,6 +83,26 @@ public class Printer : MonoBehaviour
 		fastMatToTexture2D(_detected, _toMatHelperMgr.QuadTex);
 		var bytes = _toMatHelperMgr.QuadTex.EncodeToJPG();
 		_apiManager.GetAge(bytes);
+	}
+
+	bool IsButtonTouched()
+	{
+		var pointer = new PointerEventData(EventSystem.current) { position = GetTouchPosition() };
+		var result = new List<RaycastResult> ();
+		EventSystem.current.RaycastAll(pointer, result);
+		if (result.Count <= 0) {
+			return false;
+		}
+//		_debugText.text = result[0].gameObject.ToString();
+//		_debugText.text = result.Count.ToString();
+
+		return result[0].gameObject == _CameraSwitchBtn.gameObject;
+		
+		//ボタン以外がタッチされたらtrue
+//		var ray = Camera.main.ScreenPointToRay(TouchManager.GetTouchPosition());
+//		return Physics.Raycast(ray, out _);
+		//Rayを飛ばしてあたったオブジェクトが自分自身だったら
+//		return hit.collider.gameObject != _errMsg.gameObject;
 	}
 
 	IEnumerator ShowErrMsgCoroutine()

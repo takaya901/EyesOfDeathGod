@@ -567,6 +567,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CameraSwitcher.cs" t="Include" />
           <e p="Face.cs" t="Include" />
           <e p="FaceApiManager.cs" t="Include" />
           <e p="FaceDetector.cs" t="Include" />
