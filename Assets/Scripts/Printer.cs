@@ -1,24 +1,25 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using OpenCVForUnity;
 using OpenCVForUnityExample;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 using static OpenCVForUnity.Core;
 using static OpenCVForUnity.CvType;
-using static OpenCVForUnity.Imgcodecs;
-using static OpenCVForUnity.Imgproc;
 using static OpenCVForUnity.Utils;
 using static TouchManager;
 using Text = UnityEngine.UI.Text;
+using UnityEngine.Rendering.PostProcessing;
+using static UnityEngine.Mathf;
 
 public class Printer : MonoBehaviour
 {
 	[SerializeField] Text _errMsg;
 	[SerializeField] Text _debugText;
+	[SerializeField] PostProcessVolume _volume;
+
+	LensDistortion _distortion;
 	WebCamTextureToMatHelper _toMatHelper;
 	WebCamTextureToMatHelperManager _toMatHelperMgr;
 	FaceApiManager _apiManager;
@@ -26,6 +27,8 @@ public class Printer : MonoBehaviour
 	Mat _detected;
 	ZeroMat _zeroMat;
 	const string NO_FACE_MSG = "No Face";
+	float _current;
+	bool _touched;
 	
 	IEnumerator Start()
 	{
@@ -42,6 +45,8 @@ public class Printer : MonoBehaviour
 		yield return WaitInitialization(); 
 		var imgSize = new Size(_toMatHelper.GetWidth(), _toMatHelper.GetHeight());
 		_zeroMat = new ZeroMat(imgSize);
+		
+		_volume.profile.TryGetSettings(out _distortion);
 	}
 	
 	IEnumerator WaitInitialization()
@@ -59,11 +64,18 @@ public class Printer : MonoBehaviour
 
 		_detected = _detector.Detect(_toMatHelper.GetMat());
 
-		//ボタン以外をタッチされたら赤くする前のカメラ映像をFaceAPIに送る
+		//ボタン以外がタッチされたら赤くする前のカメラ映像をFaceAPIに送る
 		if (GetTouch() == TouchInfo.Began && !IsButtonTouched()) {
 			SendToFaceApi();
 		}
-		
+
+		if (_touched) {
+			_distortion.intensity.value = SmoothDamp(_distortion.intensity.value, 100f, ref _current, 0.2f);
+			_touched = !Approximately(_distortion.intensity.value, 100f);
+		}
+		if (!_apiManager.IsWaiting) {
+			_distortion.intensity.value = SmoothDamp(_distortion.intensity.value, 0f, ref _current, 0.2f);
+		}
 		//カメラ映像を赤くしてQuadに映す
 		_detected = CvtToRed(_detected);
 		fastMatToTexture2D(_detected, _toMatHelperMgr.QuadTex);
@@ -74,10 +86,12 @@ public class Printer : MonoBehaviour
 	{
 		//顔が検出されていなければ送らない
 		if (!_detector.IsDetected) {
+			_touched = false;
 			StartCoroutine(ShowErrMsgCoroutine());
 			return;
 		}
 		
+		_touched = true;
 		//テクスチャをバイト配列にしてFaceAPIに送る
 		fastMatToTexture2D(_detected, _toMatHelperMgr.QuadTex);
 		var bytes = _toMatHelperMgr.QuadTex.EncodeToJPG();
@@ -92,7 +106,7 @@ public class Printer : MonoBehaviour
 		EventSystem.current.RaycastAll(pointer, result);
 		return result.Any();
 	}
-
+	
 	IEnumerator ShowErrMsgCoroutine()
 	{
 		_errMsg.text = NO_FACE_MSG;

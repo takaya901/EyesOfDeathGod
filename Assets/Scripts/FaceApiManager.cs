@@ -13,13 +13,16 @@ public class FaceApiManager : MonoBehaviour
     [SerializeField] Text _errMsg;
     List<Face> _faces;
     public IReadOnlyList<Face> Faces { get; private set; }    //外部参照用
+    public bool IsWaiting { get; private set; }
     
     const string SUBSCRIPTION_KEY = "b3560fbf21bb4f1c9e4cc1e8058e27a6";
     const string URI_BASE = "https://eastasia.api.cognitive.microsoft.com/face/v1.0/detect";
     const string NO_INTERNET_MSG = "No Internet Connection";
+    const string JSON_EMPTY = "Try again";
 
     public void GetAge(byte[] textureBytes)
     {
+        IsWaiting = true;
         MakeAnalysisRequest(textureBytes);
     }
 
@@ -47,24 +50,26 @@ public class FaceApiManager : MonoBehaviour
                 json = await response.Content.ReadAsStringAsync();
             }
             catch (HttpRequestException e) {
-                StartCoroutine(ShowErrMsgCoroutine());
+                StartCoroutine(ShowErrMsgCoroutine(NO_INTERNET_MSG));
             }
 
-            Debug.Log(json);
+//            Debug.Log(json);
             if (string.IsNullOrEmpty(json)) {
                 Debug.Log("empty");
+                StartCoroutine(ShowErrMsgCoroutine(JSON_EMPTY));
                 return;
             }
             
             _faces = JsonHelper.ListFromJson<Face>(json);
             Faces = _faces.AsReadOnly();
             CalcCenterPoints();
+            IsWaiting = false;
         }
     }
     
-    IEnumerator ShowErrMsgCoroutine()
+    IEnumerator ShowErrMsgCoroutine(string errMsg)
     {
-        _errMsg.text = NO_INTERNET_MSG;
+        _errMsg.text = errMsg;
         _errMsg.gameObject.SetActive(true);
         yield return new WaitForSeconds(2);
         _errMsg.gameObject.SetActive(false);
