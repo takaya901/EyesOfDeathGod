@@ -18,7 +18,6 @@ using Text = UnityEngine.UI.Text;
 public class Printer : MonoBehaviour
 {
 	[SerializeField] Text _errMsg;
-	[SerializeField] Text _CameraSwitchBtn;
 	[SerializeField] Text _debugText;
 	WebCamTextureToMatHelper _toMatHelper;
 	WebCamTextureToMatHelperManager _toMatHelperMgr;
@@ -60,7 +59,7 @@ public class Printer : MonoBehaviour
 
 		_detected = _detector.Detect(_toMatHelper.GetMat());
 
-		//タッチされたら赤くする前のカメラ映像をFaceAPIに送る
+		//ボタン以外をタッチされたら赤くする前のカメラ映像をFaceAPIに送る
 		if (GetTouch() == TouchInfo.Began && !IsButtonTouched()) {
 			SendToFaceApi();
 		}
@@ -85,24 +84,13 @@ public class Printer : MonoBehaviour
 		_apiManager.GetAge(bytes);
 	}
 
-	bool IsButtonTouched()
+	//ボタンがタッチされたらFaceAPIに送らない
+	static bool IsButtonTouched()
 	{
 		var pointer = new PointerEventData(EventSystem.current) { position = GetTouchPosition() };
 		var result = new List<RaycastResult> ();
 		EventSystem.current.RaycastAll(pointer, result);
-		if (result.Count <= 0) {
-			return false;
-		}
-//		_debugText.text = result[0].gameObject.ToString();
-//		_debugText.text = result.Count.ToString();
-
-		return result[0].gameObject == _CameraSwitchBtn.gameObject;
-		
-		//ボタン以外がタッチされたらtrue
-//		var ray = Camera.main.ScreenPointToRay(TouchManager.GetTouchPosition());
-//		return Physics.Raycast(ray, out _);
-		//Rayを飛ばしてあたったオブジェクトが自分自身だったら
-//		return hit.collider.gameObject != _errMsg.gameObject;
+		return result.Any();
 	}
 
 	IEnumerator ShowErrMsgCoroutine()

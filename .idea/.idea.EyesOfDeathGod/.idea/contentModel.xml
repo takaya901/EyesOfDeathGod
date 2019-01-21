@@ -573,6 +573,7 @@
           <e p="FaceDetector.cs" t="Include" />
           <e p="JsonHelper.cs" t="Include" />
           <e p="Printer.cs" t="Include" />
+          <e p="PrivacyPolicyOpener.cs" t="Include" />
           <e p="TouchManager.cs" t="Include" />
           <e p="WebCamTextureToMatHelperManager.cs" t="Include" />
         </e>
